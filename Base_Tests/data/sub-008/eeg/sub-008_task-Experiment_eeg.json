@@ -1,0 +1,14 @@
+{
+  "TaskName": "Experiment",
+  "EEGChannelCount": 0,
+  "MiscChannelCount": 32,
+  "EEGReference": "common",
+  "RecordingType": "continuous",
+  "RecordingDuration": 3136.4375,
+  "SamplingFrequency": 256,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "PowerLineFrequency": 0,
+  "SoftwareFilters": "n/a"
+}

@@ -1,0 +1,19 @@
+{ 
+  "Manufacturer": "ANT",
+  "SamplingFrequency": 256,
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": "n/a",
+  "EEGChannelCount": 32,
+  "RecordingType": "continuous",
+  "EEGPlacementScheme": "10-20",
+  "Event_Codes": {
+  	"1": "Visual flash during visual omission condtion",
+  	"2": "Omitted Flash during visual omission condition",
+  	"3": "Auditory tone during auditory omission condition",
+  	"4": "Omitted tone during auditory omission condition",
+  	"5": "Visual Flash during visual non-omission/control condition",
+  	"6": "Auditory tone during auditory non-omission/control condition"
+
+  }
+ }
+ 
