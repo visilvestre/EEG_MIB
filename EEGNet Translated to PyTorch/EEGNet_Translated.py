@@ -8,11 +8,13 @@ This is a temporary script file.
 import scipy
 import matplotlib.pyplot as plt
 import numpy as np
-#import EEGNet
 import torch
+import sklearn
+from torch import flatten
 from torch import nn as nn
 from tqdm import tqdm
 import wandb
+from torch.nn import MSELoss
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Dense, Activation, Permute, Dropout
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, AveragePooling2D
@@ -23,9 +25,21 @@ from tensorflow.keras.regularizers import l1_l2
 from tensorflow.keras.layers import Input, Flatten
 from tensorflow.keras.constraints import max_norm
 from tensorflow.keras import backend as K
+from torch.utils.data import Dataset, DataLoader
+import argparse
+from sklearn.metrics import accuracy_score, f1_score
 
-from global_configs import DEVICE
 
+parser = argparse.ArgumentParser()
+
+parser.add_argument("--gradient_accumulation_step", type=int, default=1)
+
+args = parser.parse_args()
+verbose = 1
+
+#from global_configs import DEVICE
+
+DEVICE = torch.device("mps")
 file = '/Users/vlourenco/Documents/GitHub/EEG_MIB/EEGNet Translated to PyTorch/P1_a1.mat'
 
 def loadeeg(file, verbose = 0):
@@ -308,7 +322,7 @@ def main_tensorflow():
     tonic                   = gettonics(mat, t)
     x, y                    = distributedata(tonic, deviant)
     x_shuffled, y_shuffled  = datashuffler(x,y)
-    y_nn                    = PrepareForCrossEntropy(y_shuffled)
+    y_nn                    = prepareForCrossEntropy(y_shuffled)
     
     #EEGNet Model
     model                   = EEGNet(2, Chans = 129, Samples = 2500, dropoutRate = 0.5, kernLength = 500, F1 = 8, D = 2, F2 = 16, norm_rate = 0.25, dropoutType = 'Dropout')
@@ -400,6 +414,16 @@ class SeparableConv2d(torch.nn.Module):
         return self.pointConv(self.spatialConv(x))
 
 
+def multiclass_acc(preds, truths):
+    """
+    Compute the multiclass accuracy w.r.t. groundtruth
+
+    :param preds: Float array representing the predictions, dimension (N,)
+    :param truths: Float/int array representing the groundtruth classes, dimension (N,)
+    :return: Classification accuracy
+    """
+    return np.sum(np.round(preds) == np.round(truths)) / float(len(truths))
+
 class EEGNet_torch(torch.nn.Module):
     #EEGNet() Model in pytorch
     
@@ -412,9 +436,8 @@ class EEGNet_torch(torch.nn.Module):
                  depth_multiplier = 1,
                  nb_classes = 2
                 ):
-        
-        super(EEGNet, self).__init__()
-        device = torch.device(device_type)
+        super(EEGNet_torch, self).__init__()
+        """
         #Block1
         self.b1step1 = nn.Conv2d(in_channels = 2, 
                                  out_channels = 8, 
@@ -492,9 +515,77 @@ class EEGNet_torch(torch.nn.Module):
                                device=None, 
                                dtype=None)
         self.softmax = nn.Softmax(dim=None)
+        """
+        intermediate_channels = 8 * depth_multiplier
+        self.sequential = nn.Sequential(nn.Conv2d(in_channels = 2, 
+                                                  out_channels = 8, 
+                                                  kernel_size = (1, kernLength), 
+                                                  padding = 'same',
+                                                  dilation= 1,
+                                                  groups = 2,
+                                                  bias = False,
+                                                  padding_mode = 'zeros',
+                                                  device = None,
+                                                  dtype = None), 
+                                        nn.BatchNorm2d(8), 
+                                        nn.Conv2d(in_channels = 8, 
+                                                  out_channels = 8, 
+                                                  kernel_size = (1, kernLength), 
+                                                  stride = (1,1), 
+                                                  padding = 'same',
+                                                  dilation = 1,
+                                                  groups= 8,
+                                                  bias = False, 
+                                                  padding_mode = 'zeros', 
+                                                  device = None, 
+                                                  dtype = None),
+                                        nn.BatchNorm2d(8), 
+                                        nn.ELU(alpha=1.0, 
+                                               inplace=False), 
+                                        nn.AvgPool2d((1,4), 
+                                                     stride=None, 
+                                                     padding=0, 
+                                                     ceil_mode=False, 
+                                                     count_include_pad=True, 
+                                                     divisor_override=None),
+                                        nn.Dropout(dropoutRate), 
+                                        torch.nn.Conv2d(in_channels= 8,
+                                                        out_channels= intermediate_channels,
+                                                        kernel_size=3,
+                                                        stride=1,
+                                                        padding=0,
+                                                        dilation=1,
+                                                        groups=8,
+                                                        bias=False,
+                                                        padding_mode='zeros'), 
+                                        torch.nn.Conv2d(in_channels= intermediate_channels,
+                                                        out_channels= 8,
+                                                        kernel_size=1,
+                                                        stride=1,
+                                                        padding=0,
+                                                        dilation=1,
+                                                        bias=False,
+                                                        padding_mode='zeros'), 
+                                        nn.BatchNorm2d(num_features = 8), 
+                                        nn.ELU(alpha=1.0, inplace=False), 
+                                        nn.AvgPool2d((1,8), 
+                                                     stride=None, 
+                                                     padding=0, 
+                                                     ceil_mode=False, 
+                                                     count_include_pad=True, 
+                                                     divisor_override=None), 
+                                        nn.Dropout(dropoutRate), 
+                                        nn.Flatten(), 
+                                        nn.Linear(in_features = 78232,
+                                                  out_features = 2, 
+                                                  bias=True, 
+                                                  device=None, 
+                                                  dtype=None),
+                                        nn.Softmax(dim=None) )
         
     
     def forward(self, x):
+        """
         #Block1
         block1 = self.b1step1(x)  
         block1 = self.b1step2(block1)
@@ -517,12 +608,46 @@ class EEGNet_torch(torch.nn.Module):
         dense = self.dense(flatten)
 
         softmax = self.softmax(dense)
+        """
         
+        softmax = self.sequential(x)
         return softmax
+
+#used for scoring
+def test_score_model(model: nn.Module, test_dataloader: DataLoader, use_zero=False):
+
+    preds, y_test = test_epoch(model, test_dataloader)
+    non_zeros = np.array(
+        [i for i, e in enumerate(y_test) if e != 0 or use_zero])
+
+    test_preds_a7 = np.clip(preds, a_min=-3., a_max=3.)
+    test_truth_a7 = np.clip(y_test, a_min=-3., a_max=3.)
+    mult_a7 = multiclass_acc(test_preds_a7, test_truth_a7)
+
+
+    preds = preds[non_zeros]
+    y_test = y_test[non_zeros]
+
+
+
+    mae = np.mean(np.absolute(preds - y_test))
+    corr = np.corrcoef(preds, y_test)[0][1]
+
+    preds = preds >= 0
+    y_test = y_test >= 0
+
+    f_score = f1_score(y_test, preds, average="weighted")
+    acc = accuracy_score(y_test, preds)
+
+
+    return acc, mae, corr, f_score, mult_a7
+
+
 
 ##Used for testing purposes, not in train()
 def test_epoch(model: nn.Module, test_dataloader: DataLoader):
-    model.eval()
+    """
+    model().eval()
     
     preds = []
     labels = []
@@ -550,11 +675,45 @@ def test_epoch(model: nn.Module, test_dataloader: DataLoader):
         labels = np.array(labels)
 
     return preds, labels
+    """
+
+    model.eval()
+    
+    preds = []
+    labels = []
+    DEVICE = torch.device("cpu")
+    
+    with torch.no_grad():
+        for batch in tqdm(test_dataloader):
+            batch = tuple(t.to(DEVICE) for t in batch)
+    
+            input_t, label_t = batch
+            input_ = torch.zeros([1,2,129,2500])
+            input_[0] = input_t
+            
+            output = model.test() #### CRITICAL , CONFIGURE HERE
+            
+            logits = output
+    
+            logits = logits.detach().cpu().numpy()
+            label_ids = label_ids.detach().cpu().numpy()
+    
+            logits = np.squeeze(logits).tolist()
+            label_ids = np.squeeze(label_ids).tolist()
+    
+            preds.extend(logits)
+            labels.extend(label_t)
+    
+        preds = np.array(preds)
+        labels = np.array(labels)
+    
+    return preds, labels
+
 
 #Needed for train()
 def train_epoch(model: nn.Module, train_dataloader: DataLoader):
     #setup model to train
-    model.train()
+    model().train(mode=True)
     
     """
     #Original_model
@@ -590,7 +749,7 @@ def train_epoch(model: nn.Module, train_dataloader: DataLoader):
     nb_tr_examples = 0
     nb_tr_steps = 0
     
-    DEVICE = torch.device("cpu") #Define "cpu" or "mds" 
+    DEVICE = torch.device("cpu") #Define "cpu" or "mds" ("mps" if torch.backends.mps.is_available() else "cpu")
     
     for step, batch in enumerate(tqdm(train_dataloader, desc="Iteration")):
         batch = tuple(t.to(DEVICE) for t in batch)
@@ -599,17 +758,24 @@ def train_epoch(model: nn.Module, train_dataloader: DataLoader):
         input_ = torch.zeros([1,2,129,2500])
         input_[0] = input_t
         
-        output_t = model() #### NEED TO UPDATE HERE WITH MODEL STRUCTURE....
+        output_t = model().forward(x=input_) #### NEED TO UPDATE HERE WITH MODEL STRUCTURE....
         
         logits = output_t
         
-        loss_fct = MSELoss()
+        loss_fct = nn.CrossEntropyLoss() ##Changed from MSE to CrossEntropy
+        #MSELoss()
         loss = loss_fct(logits.view(-1), labels_t.view(-1))
+        
         
         if args.gradient_accumulation_step > 1:
             loss = loss / args.gradient_accumulation_step
             tr_loss += loss.item()
             nb_tr_steps += 1
+        
+        tr_loss += loss.item()
+        nb_tr_steps += 1
+        
+    return tr_loss / nb_tr_steps
 
 
 #Needed for train()
@@ -700,50 +866,62 @@ def train(model, train_dataloader, validation_dataloader, test_dataloader, verbo
 def main_torch():
     
     # Data Preparation
-    mat                     = loadeeg(file, verbose = 1)
+    mat                     = loadeeg(file, verbose = 0)
     #x, mat_framed           = framedata(mat, verbose = 1)
-    d, j                    = findindexes(mat, verbose = 1)
-    deviant                 = getdeviants(mat, d, verbose = 1)
-    t,k                     = findindexes(mat, triggers_list=[25,65,45], verbose = 1)
-    tonic                   = gettonics(mat, t, verbose = 1)
-    x, y                    = distributedata(tonic, deviant, verbose = 1)
-    x_shuffled, y_shuffled  = datashuffler(x,y, verbose = 1)
-    y_nn                    = prepareForCrossEntropy(y_shuffled, verbose = 1)
+    d, j                    = findindexes(mat, verbose = 0)
+    deviant                 = getdeviants(mat, d, verbose = 0)
+    t,k                     = findindexes(mat, triggers_list=[25,65,45], verbose = 0)
+    tonic                   = gettonics(mat, t, verbose = 0)
+    x, y                    = distributedata(tonic, deviant, verbose = 0)
+    x_shuffled, y_shuffled  = datashuffler(x,y)
+    y_nn                    = prepareForCrossEntropy(y_shuffled, verbose = 0)
 
-    #Variables Definition
-    nb_classes = 2
-    Chans = 129
-    Samples = 2500
-    dropoutRate = 0.5
-    kernLength = 500
-    F1 = 8
-    D = 2
-    F2 = 16
-    norm_rate = 0.25
-    dropoutType = 'Dropout'
-    data_x = x_shuffled[0:218]
-    device = torch.device('mps')
+
     
     #Define input tensor
-    input1 = torch.from_numpy(data_x)
     
-    #Prepare data in the format torch accepts
-    train_x = torch.zeros([1,218,129,2500])
-    train_x.size()
-    train_x[0] = input1[0:218]
+    #Prepare train data in the format torch accepts
+    x_train = x_shuffled[0:218]
+    y_train = y_shuffled[0:218]
+    
+
+    #Define train Dataset
+    training_data = (x_train, y_train)
+    train_dataset = TrainDataset(training_data = training_data)
+    train_dataloader = DataLoader(dataset = train_dataset, batch_size = 2, shuffle = True, num_workers=0)
+    
+    
+    #Prepare test data in the format torch accepts'
+    x_test = x_shuffled[218:]
+    y_test = y_shuffled[218:]
+    
+    #Define test Dataset
+    testing_data = (x_test, y_test)
+    test_dataset = TrainDataset(training_data = testing_data)
+    test_dataloader = DataLoader(dataset = test_dataset, batch_size = 2, shuffle = True, num_workers=0)
     
     
     ## Testing EEGNet
+    model = EEGNet_torch
+    print(model)
+    
+    n_epochs = 1
+    
+    ### test zone ###
+
+    for epoch in range(n_epochs):
+        train_loss = train_epoch(model, train_dataloader)
+        print(f'train_loss: {train_loss}')
+        #print(train_loss.backward())
+    
+    
+    #acc, mae, corr, f_score, mult_a7 = test_score_model(model, test_dataloader)
+    #print(f"acc: {acc},  mae: {mae}, corr: {corr}, f_score: {f_score}, mult_a7: {mult_a7}")
     #model = EEGNet_torch(train_x)
     #a = model.forward()
     #print(a)
     
     
 if __name__ == "__main__":
-    main_tensorflow()
-    #main_torch()
-    
-    
-    
-    
-    
+    #main_tensorflow()
+    main_torch()
