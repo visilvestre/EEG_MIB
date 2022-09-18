@@ -1,0 +1,1345 @@
+2022-09-18 15:23:45,072 INFO    StreamThr :99714 [internal.py:wandb_internal():90] W&B internal server running at pid: 99714, started at: 2022-09-18 15:23:45.071133
+2022-09-18 15:23:45,074 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: status
+2022-09-18 15:23:45,075 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: status
+2022-09-18 15:23:45,076 DEBUG   SenderThread:99714 [sender.py:send():302] send: header
+2022-09-18 15:23:45,076 INFO    WriterThread:99714 [datastore.py:open_for_write():75] open: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/run-2j5awqdb.wandb
+2022-09-18 15:23:45,077 DEBUG   SenderThread:99714 [sender.py:send():302] send: run
+2022-09-18 15:23:45,373 INFO    SenderThread:99714 [dir_watcher.py:__init__():216] watching files in: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files
+2022-09-18 15:23:45,373 INFO    SenderThread:99714 [sender.py:_start_run_threads():913] run started: 2j5awqdb with start time 1663539824.077605
+2022-09-18 15:23:45,374 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:23:45,374 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:23:45,375 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: check_version
+2022-09-18 15:23:45,376 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: check_version
+2022-09-18 15:23:45,484 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: run_start
+2022-09-18 15:23:45,486 DEBUG   HandlerThread:99714 [meta.py:__init__():35] meta init
+2022-09-18 15:23:45,492 DEBUG   HandlerThread:99714 [meta.py:__init__():50] meta init done
+2022-09-18 15:23:45,494 DEBUG   HandlerThread:99714 [meta.py:probe():216] probe
+2022-09-18 15:23:45,496 DEBUG   HandlerThread:99714 [meta.py:_setup_git():206] setup git
+2022-09-18 15:23:45,521 DEBUG   HandlerThread:99714 [meta.py:_setup_git():213] setup git done
+2022-09-18 15:23:45,521 DEBUG   HandlerThread:99714 [meta.py:_save_pip():54] save pip
+2022-09-18 15:23:45,522 DEBUG   HandlerThread:99714 [meta.py:_save_pip():68] save pip done
+2022-09-18 15:23:45,522 DEBUG   HandlerThread:99714 [meta.py:_save_conda():75] save conda
+2022-09-18 15:23:46,379 INFO    Thread-51 :99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/conda-environment.yaml
+2022-09-18 15:23:46,379 INFO    Thread-51 :99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/requirements.txt
+2022-09-18 15:23:46,379 INFO    Thread-51 :99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/wandb-summary.json
+2022-09-18 15:23:49,084 DEBUG   HandlerThread:99714 [meta.py:_save_conda():85] save conda done
+2022-09-18 15:23:49,084 DEBUG   HandlerThread:99714 [meta.py:probe():254] probe done
+2022-09-18 15:23:49,085 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:23:49,085 DEBUG   SenderThread:99714 [sender.py:send():302] send: files
+2022-09-18 15:23:49,085 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-18 15:23:49,091 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:23:49,091 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:23:49,259 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:23:49,388 INFO    Thread-51 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/conda-environment.yaml
+2022-09-18 15:23:49,388 INFO    Thread-51 :99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/wandb-metadata.json
+2022-09-18 15:23:49,577 INFO    Thread-55 :99714 [upload_job.py:push():138] Uploaded file /var/folders/0j/6hw7rjfs69q8cbklt2rwbj4r0000gn/T/tmpvx4762n2wandb/3392ti5t-wandb-metadata.json
+2022-09-18 15:23:54,309 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:23:54,361 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: pause
+2022-09-18 15:23:54,361 INFO    HandlerThread:99714 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-09-18 15:23:54,412 INFO    Thread-51 :99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/output.log
+2022-09-18 15:23:55,324 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:23:56,425 INFO    Thread-51 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/output.log
+2022-09-18 15:24:04,267 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:24:04,269 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:24:16,515 INFO    Thread-51 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/config.yaml
+2022-09-18 15:24:19,410 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:24:19,410 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:24:34,583 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:24:34,584 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:24:49,720 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:24:49,721 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:25:04,846 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:25:04,846 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:25:15,443 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: resume
+2022-09-18 15:25:15,443 INFO    HandlerThread:99714 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-09-18 15:25:15,474 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:15,475 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:25:15,475 DEBUG   SenderThread:99714 [sender.py:send():302] send: exit
+2022-09-18 15:25:15,475 INFO    SenderThread:99714 [sender.py:send_exit():438] handling exit code: 0
+2022-09-18 15:25:15,475 INFO    SenderThread:99714 [sender.py:send_exit():440] handling runtime: 9
+2022-09-18 15:25:15,476 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:25:15,476 INFO    SenderThread:99714 [sender.py:send_exit():446] send defer
+2022-09-18 15:25:15,477 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:15,477 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:15,477 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 0
+2022-09-18 15:25:15,477 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:15,477 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-09-18 15:25:15,477 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 1
+2022-09-18 15:25:15,477 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:15,477 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 1
+2022-09-18 15:25:15,804 INFO    Thread-51 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/wandb-summary.json
+2022-09-18 15:25:16,809 INFO    Thread-51 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/config.yaml
+2022-09-18 15:25:16,823 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:16,823 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:16,823 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-09-18 15:25:16,824 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 2
+2022-09-18 15:25:16,824 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:16,824 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:25:16,824 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:16,824 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 2
+2022-09-18 15:25:16,824 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:16,824 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-09-18 15:25:16,824 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 3
+2022-09-18 15:25:16,825 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:16,825 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 3
+2022-09-18 15:25:16,825 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:16,825 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-09-18 15:25:16,825 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 4
+2022-09-18 15:25:16,825 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:16,825 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 4
+2022-09-18 15:25:16,825 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:25:16,825 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:25:16,826 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:16,826 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-09-18 15:25:16,826 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 5
+2022-09-18 15:25:16,826 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:16,826 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 5
+2022-09-18 15:25:16,826 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:16,826 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-09-18 15:25:16,826 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 6
+2022-09-18 15:25:16,826 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:16,826 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 6
+2022-09-18 15:25:16,826 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:16,826 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-09-18 15:25:16,930 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:17,814 INFO    Thread-51 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/wandb-summary.json
+2022-09-18 15:25:18,493 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 7
+2022-09-18 15:25:18,494 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:18,495 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:18,496 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 7
+2022-09-18 15:25:18,497 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:18,497 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-09-18 15:25:18,497 INFO    SenderThread:99714 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-18 15:25:18,603 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:18,817 INFO    SenderThread:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/output.log
+2022-09-18 15:25:18,818 INFO    SenderThread:99714 [dir_watcher.py:finish():392] scan: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files
+2022-09-18 15:25:18,819 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/requirements.txt requirements.txt
+2022-09-18 15:25:18,819 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/output.log output.log
+2022-09-18 15:25:18,819 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/config.yaml config.yaml
+2022-09-18 15:25:18,819 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/wandb-summary.json wandb-summary.json
+2022-09-18 15:25:18,822 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/conda-environment.yaml conda-environment.yaml
+2022-09-18 15:25:18,825 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/wandb-metadata.json wandb-metadata.json
+2022-09-18 15:25:18,826 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 8
+2022-09-18 15:25:18,826 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:18,827 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:18,828 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 8
+2022-09-18 15:25:18,829 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:18,830 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-09-18 15:25:18,830 INFO    SenderThread:99714 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-18 15:25:18,936 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:18,936 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:19,039 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:19,039 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:19,142 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:19,143 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:19,249 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:19,249 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:19,338 INFO    Thread-58 :99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/output.log
+2022-09-18 15:25:19,339 INFO    Thread-59 :99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/config.yaml
+2022-09-18 15:25:19,341 INFO    Thread-61 :99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/conda-environment.yaml
+2022-09-18 15:25:19,342 INFO    Thread-57 :99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/requirements.txt
+2022-09-18 15:25:19,343 INFO    Thread-60 :99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/files/wandb-summary.json
+2022-09-18 15:25:19,356 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:19,356 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:19,464 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:19,465 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:19,546 INFO    Thread-50 :99714 [sender.py:transition_state():459] send defer: 9
+2022-09-18 15:25:19,547 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:19,547 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 9
+2022-09-18 15:25:19,547 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:19,548 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-09-18 15:25:19,569 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:19,924 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 10
+2022-09-18 15:25:19,925 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:19,926 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:19,926 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 10
+2022-09-18 15:25:19,926 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:19,926 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-09-18 15:25:19,927 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 11
+2022-09-18 15:25:19,927 DEBUG   SenderThread:99714 [sender.py:send():302] send: final
+2022-09-18 15:25:19,927 DEBUG   SenderThread:99714 [sender.py:send():302] send: footer
+2022-09-18 15:25:19,927 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:19,927 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 11
+2022-09-18 15:25:19,928 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:19,928 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-09-18 15:25:20,034 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:20,034 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:20,034 INFO    SenderThread:99714 [file_pusher.py:join():176] waiting for file pusher
+2022-09-18 15:25:20,385 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: sampled_history
+2022-09-18 15:25:20,387 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: get_summary
+2022-09-18 15:25:20,389 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: shutdown
+2022-09-18 15:25:20,389 INFO    HandlerThread:99714 [handler.py:finish():810] shutting down handler
+2022-09-18 15:25:20,931 INFO    WriterThread:99714 [datastore.py:close():279] close: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152339-2j5awqdb/run-2j5awqdb.wandb
+2022-09-18 15:25:21,277 INFO    SenderThread:99714 [sender.py:finish():1312] shutting down sender
+2022-09-18 15:25:21,277 INFO    SenderThread:99714 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-18 15:25:21,277 INFO    SenderThread:99714 [file_pusher.py:join():176] waiting for file pusher
+2022-09-18 15:25:22,404 INFO    StreamThr :99714 [internal.py:wandb_internal():90] W&B internal server running at pid: 99714, started at: 2022-09-18 15:25:22.403375
+2022-09-18 15:25:22,406 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: status
+2022-09-18 15:25:22,408 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: status
+2022-09-18 15:25:22,409 DEBUG   SenderThread:99714 [sender.py:send():302] send: header
+2022-09-18 15:25:22,409 INFO    WriterThread:99714 [datastore.py:open_for_write():75] open: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/run-e8dpbnpi.wandb
+2022-09-18 15:25:22,409 DEBUG   SenderThread:99714 [sender.py:send():302] send: run
+2022-09-18 15:25:22,911 INFO    SenderThread:99714 [dir_watcher.py:__init__():216] watching files in: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files
+2022-09-18 15:25:22,911 INFO    SenderThread:99714 [sender.py:_start_run_threads():913] run started: e8dpbnpi with start time 1663539921.405897
+2022-09-18 15:25:22,912 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:25:22,912 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:25:22,913 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: check_version
+2022-09-18 15:25:22,913 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: check_version
+2022-09-18 15:25:22,994 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: run_start
+2022-09-18 15:25:22,996 DEBUG   HandlerThread:99714 [meta.py:__init__():35] meta init
+2022-09-18 15:25:22,996 DEBUG   HandlerThread:99714 [meta.py:__init__():50] meta init done
+2022-09-18 15:25:22,996 DEBUG   HandlerThread:99714 [meta.py:probe():216] probe
+2022-09-18 15:25:23,003 DEBUG   HandlerThread:99714 [meta.py:_setup_git():206] setup git
+2022-09-18 15:25:23,028 DEBUG   HandlerThread:99714 [meta.py:_setup_git():213] setup git done
+2022-09-18 15:25:23,028 DEBUG   HandlerThread:99714 [meta.py:_save_pip():54] save pip
+2022-09-18 15:25:23,029 DEBUG   HandlerThread:99714 [meta.py:_save_pip():68] save pip done
+2022-09-18 15:25:23,029 DEBUG   HandlerThread:99714 [meta.py:_save_conda():75] save conda
+2022-09-18 15:25:23,917 INFO    Thread-71 :99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/requirements.txt
+2022-09-18 15:25:23,917 INFO    Thread-71 :99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/conda-environment.yaml
+2022-09-18 15:25:23,918 INFO    Thread-71 :99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/wandb-summary.json
+2022-09-18 15:25:26,581 DEBUG   HandlerThread:99714 [meta.py:_save_conda():85] save conda done
+2022-09-18 15:25:26,581 DEBUG   HandlerThread:99714 [meta.py:probe():254] probe done
+2022-09-18 15:25:26,582 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:25:26,582 DEBUG   SenderThread:99714 [sender.py:send():302] send: files
+2022-09-18 15:25:26,583 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-18 15:25:26,589 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:25:26,589 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:25:26,701 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:25:26,928 INFO    Thread-71 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/conda-environment.yaml
+2022-09-18 15:25:26,929 INFO    Thread-71 :99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/wandb-metadata.json
+2022-09-18 15:25:27,032 INFO    Thread-75 :99714 [upload_job.py:push():138] Uploaded file /var/folders/0j/6hw7rjfs69q8cbklt2rwbj4r0000gn/T/tmpk3tw03o_wandb/1t9mop5g-wandb-metadata.json
+2022-09-18 15:25:31,791 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:25:31,954 INFO    Thread-71 :99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/output.log
+2022-09-18 15:25:33,962 INFO    Thread-71 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/output.log
+2022-09-18 15:25:41,224 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:25:41,225 DEBUG   SenderThread:99714 [sender.py:send():302] send: exit
+2022-09-18 15:25:41,225 INFO    SenderThread:99714 [sender.py:send_exit():438] handling exit code: 0
+2022-09-18 15:25:41,225 INFO    SenderThread:99714 [sender.py:send_exit():440] handling runtime: 18
+2022-09-18 15:25:41,225 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:41,226 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:25:41,226 INFO    SenderThread:99714 [sender.py:send_exit():446] send defer
+2022-09-18 15:25:41,226 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:41,226 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:41,227 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 0
+2022-09-18 15:25:41,227 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:41,227 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-09-18 15:25:41,228 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 1
+2022-09-18 15:25:41,228 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:41,228 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 1
+2022-09-18 15:25:42,000 INFO    Thread-71 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/wandb-summary.json
+2022-09-18 15:25:42,003 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:42,003 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:42,003 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-09-18 15:25:42,004 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 2
+2022-09-18 15:25:42,004 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:42,004 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:42,004 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:25:42,004 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 2
+2022-09-18 15:25:42,004 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:42,004 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-09-18 15:25:42,004 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 3
+2022-09-18 15:25:42,004 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:42,005 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 3
+2022-09-18 15:25:42,005 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:42,005 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-09-18 15:25:42,005 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 4
+2022-09-18 15:25:42,005 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:42,005 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 4
+2022-09-18 15:25:42,005 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:25:42,005 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:25:42,006 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:42,006 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-09-18 15:25:42,006 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 5
+2022-09-18 15:25:42,006 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:42,006 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 5
+2022-09-18 15:25:42,006 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:42,006 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-09-18 15:25:42,110 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:42,132 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 6
+2022-09-18 15:25:42,132 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:42,133 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:42,133 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 6
+2022-09-18 15:25:42,133 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:42,133 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-09-18 15:25:42,240 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:43,006 INFO    Thread-71 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/wandb-summary.json
+2022-09-18 15:25:43,006 INFO    Thread-71 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/config.yaml
+2022-09-18 15:25:43,832 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 7
+2022-09-18 15:25:43,832 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:43,832 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:43,833 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 7
+2022-09-18 15:25:43,833 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:43,833 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-09-18 15:25:43,833 INFO    SenderThread:99714 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-18 15:25:43,938 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:44,008 INFO    SenderThread:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/output.log
+2022-09-18 15:25:44,008 INFO    SenderThread:99714 [dir_watcher.py:finish():392] scan: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files
+2022-09-18 15:25:44,009 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/requirements.txt requirements.txt
+2022-09-18 15:25:44,009 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/output.log output.log
+2022-09-18 15:25:44,009 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/config.yaml config.yaml
+2022-09-18 15:25:44,010 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/wandb-summary.json wandb-summary.json
+2022-09-18 15:25:44,015 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/conda-environment.yaml conda-environment.yaml
+2022-09-18 15:25:44,020 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/wandb-metadata.json wandb-metadata.json
+2022-09-18 15:25:44,023 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 8
+2022-09-18 15:25:44,024 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:44,025 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:44,026 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 8
+2022-09-18 15:25:44,026 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:44,027 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-09-18 15:25:44,028 INFO    SenderThread:99714 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-18 15:25:44,134 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:44,134 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:44,241 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:44,241 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:44,344 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:44,345 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:44,451 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:44,452 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:44,484 INFO    Thread-78 :99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/config.yaml
+2022-09-18 15:25:44,488 INFO    Thread-77 :99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/output.log
+2022-09-18 15:25:44,495 INFO    Thread-79 :99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/wandb-summary.json
+2022-09-18 15:25:44,497 INFO    Thread-76 :99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/requirements.txt
+2022-09-18 15:25:44,501 INFO    Thread-80 :99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/files/conda-environment.yaml
+2022-09-18 15:25:44,557 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:44,558 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:44,667 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:44,667 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:44,706 INFO    Thread-70 :99714 [sender.py:transition_state():459] send defer: 9
+2022-09-18 15:25:44,707 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:44,708 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 9
+2022-09-18 15:25:44,708 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:44,708 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-09-18 15:25:44,772 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:44,803 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 10
+2022-09-18 15:25:44,804 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:44,805 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:44,805 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 10
+2022-09-18 15:25:44,806 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:44,806 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-09-18 15:25:44,807 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 11
+2022-09-18 15:25:44,807 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:25:44,807 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 11
+2022-09-18 15:25:44,808 DEBUG   SenderThread:99714 [sender.py:send():302] send: final
+2022-09-18 15:25:44,808 DEBUG   SenderThread:99714 [sender.py:send():302] send: footer
+2022-09-18 15:25:44,808 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:25:44,808 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-09-18 15:25:44,912 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:25:44,912 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:25:44,912 INFO    SenderThread:99714 [file_pusher.py:join():176] waiting for file pusher
+2022-09-18 15:25:45,276 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: sampled_history
+2022-09-18 15:25:45,277 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: get_summary
+2022-09-18 15:25:45,277 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: shutdown
+2022-09-18 15:25:45,277 INFO    HandlerThread:99714 [handler.py:finish():810] shutting down handler
+2022-09-18 15:25:45,809 INFO    WriterThread:99714 [datastore.py:close():279] close: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152515-e8dpbnpi/run-e8dpbnpi.wandb
+2022-09-18 15:25:46,173 INFO    SenderThread:99714 [sender.py:finish():1312] shutting down sender
+2022-09-18 15:25:46,174 INFO    SenderThread:99714 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-18 15:25:46,174 INFO    SenderThread:99714 [file_pusher.py:join():176] waiting for file pusher
+2022-09-18 15:25:47,288 INFO    StreamThr :99714 [internal.py:wandb_internal():90] W&B internal server running at pid: 99714, started at: 2022-09-18 15:25:47.287031
+2022-09-18 15:25:47,290 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: status
+2022-09-18 15:25:47,291 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: status
+2022-09-18 15:25:47,293 DEBUG   SenderThread:99714 [sender.py:send():302] send: header
+2022-09-18 15:25:47,293 INFO    WriterThread:99714 [datastore.py:open_for_write():75] open: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/run-1ij69wsn.wandb
+2022-09-18 15:25:47,293 DEBUG   SenderThread:99714 [sender.py:send():302] send: run
+2022-09-18 15:25:47,562 INFO    SenderThread:99714 [dir_watcher.py:__init__():216] watching files in: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files
+2022-09-18 15:25:47,563 INFO    SenderThread:99714 [sender.py:_start_run_threads():913] run started: 1ij69wsn with start time 1663539946.294546
+2022-09-18 15:25:47,563 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:25:47,564 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:25:47,564 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: check_version
+2022-09-18 15:25:47,564 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: check_version
+2022-09-18 15:25:47,657 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: run_start
+2022-09-18 15:25:47,659 DEBUG   HandlerThread:99714 [meta.py:__init__():35] meta init
+2022-09-18 15:25:47,659 DEBUG   HandlerThread:99714 [meta.py:__init__():50] meta init done
+2022-09-18 15:25:47,666 DEBUG   HandlerThread:99714 [meta.py:probe():216] probe
+2022-09-18 15:25:47,669 DEBUG   HandlerThread:99714 [meta.py:_setup_git():206] setup git
+2022-09-18 15:25:47,694 DEBUG   HandlerThread:99714 [meta.py:_setup_git():213] setup git done
+2022-09-18 15:25:47,694 DEBUG   HandlerThread:99714 [meta.py:_save_pip():54] save pip
+2022-09-18 15:25:47,695 DEBUG   HandlerThread:99714 [meta.py:_save_pip():68] save pip done
+2022-09-18 15:25:47,695 DEBUG   HandlerThread:99714 [meta.py:_save_conda():75] save conda
+2022-09-18 15:25:48,568 INFO    Thread-90 :99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/wandb-summary.json
+2022-09-18 15:25:48,569 INFO    Thread-90 :99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/requirements.txt
+2022-09-18 15:25:48,569 INFO    Thread-90 :99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/conda-environment.yaml
+2022-09-18 15:25:51,260 DEBUG   HandlerThread:99714 [meta.py:_save_conda():85] save conda done
+2022-09-18 15:25:51,260 DEBUG   HandlerThread:99714 [meta.py:probe():254] probe done
+2022-09-18 15:25:51,261 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:25:51,261 DEBUG   SenderThread:99714 [sender.py:send():302] send: files
+2022-09-18 15:25:51,262 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-18 15:25:51,268 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:25:51,268 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:25:51,373 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:25:51,582 INFO    Thread-90 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/conda-environment.yaml
+2022-09-18 15:25:51,582 INFO    Thread-90 :99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/wandb-metadata.json
+2022-09-18 15:25:51,716 INFO    Thread-94 :99714 [upload_job.py:push():138] Uploaded file /var/folders/0j/6hw7rjfs69q8cbklt2rwbj4r0000gn/T/tmpce2fv81_wandb/1x4bi5ke-wandb-metadata.json
+2022-09-18 15:25:56,480 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: pause
+2022-09-18 15:25:56,481 INFO    HandlerThread:99714 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-09-18 15:25:57,445 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:26:06,379 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:26:06,379 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:26:17,715 INFO    Thread-90 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/config.yaml
+2022-09-18 15:26:21,529 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:26:21,529 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:26:29,172 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: resume
+2022-09-18 15:26:29,172 INFO    HandlerThread:99714 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-09-18 15:26:29,203 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:26:29,204 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:26:29,204 DEBUG   SenderThread:99714 [sender.py:send():302] send: exit
+2022-09-18 15:26:29,204 INFO    SenderThread:99714 [sender.py:send_exit():438] handling exit code: 0
+2022-09-18 15:26:29,204 INFO    SenderThread:99714 [sender.py:send_exit():440] handling runtime: 9
+2022-09-18 15:26:29,205 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:26:29,206 INFO    SenderThread:99714 [sender.py:send_exit():446] send defer
+2022-09-18 15:26:29,206 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:26:29,206 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:26:29,206 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 0
+2022-09-18 15:26:29,206 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:26:29,206 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-09-18 15:26:29,207 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 1
+2022-09-18 15:26:29,207 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:26:29,207 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 1
+2022-09-18 15:26:29,775 INFO    Thread-90 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/wandb-summary.json
+2022-09-18 15:26:30,599 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:26:30,599 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:26:30,599 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-09-18 15:26:30,599 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 2
+2022-09-18 15:26:30,600 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:26:30,600 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:26:30,600 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:26:30,600 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 2
+2022-09-18 15:26:30,601 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:26:30,601 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-09-18 15:26:30,601 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 3
+2022-09-18 15:26:30,601 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:26:30,601 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 3
+2022-09-18 15:26:30,601 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:26:30,601 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-09-18 15:26:30,601 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 4
+2022-09-18 15:26:30,601 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:26:30,601 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 4
+2022-09-18 15:26:30,601 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:26:30,602 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:26:30,602 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:26:30,602 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-09-18 15:26:30,602 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 5
+2022-09-18 15:26:30,602 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:26:30,602 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 5
+2022-09-18 15:26:30,602 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:26:30,602 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-09-18 15:26:30,706 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:26:30,776 INFO    Thread-90 :99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/wandb-summary.json
+2022-09-18 15:26:30,801 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 6
+2022-09-18 15:26:30,801 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:26:30,802 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:26:30,802 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 6
+2022-09-18 15:26:30,802 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:26:30,803 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-09-18 15:26:30,803 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 7
+2022-09-18 15:26:30,803 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:26:30,803 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 7
+2022-09-18 15:26:30,803 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:26:30,803 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-09-18 15:26:30,803 INFO    SenderThread:99714 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-18 15:26:30,910 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:26:31,778 INFO    SenderThread:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/config.yaml
+2022-09-18 15:26:31,778 INFO    SenderThread:99714 [dir_watcher.py:finish():392] scan: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files
+2022-09-18 15:26:31,778 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/requirements.txt requirements.txt
+2022-09-18 15:26:31,779 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/config.yaml config.yaml
+2022-09-18 15:26:31,780 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/wandb-summary.json wandb-summary.json
+2022-09-18 15:26:31,781 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/conda-environment.yaml conda-environment.yaml
+2022-09-18 15:26:31,783 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/wandb-metadata.json wandb-metadata.json
+2022-09-18 15:26:31,785 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 8
+2022-09-18 15:26:31,785 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:26:31,785 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:26:31,785 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 8
+2022-09-18 15:26:31,786 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:26:31,786 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-09-18 15:26:31,786 INFO    SenderThread:99714 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-18 15:26:31,892 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:26:31,892 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:26:31,999 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:26:31,999 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:26:32,107 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:26:32,107 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:26:32,215 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:26:32,215 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:26:32,222 INFO    Thread-97 :99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/config.yaml
+2022-09-18 15:26:32,227 INFO    Thread-98 :99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/wandb-summary.json
+2022-09-18 15:26:32,236 INFO    Thread-96 :99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/requirements.txt
+2022-09-18 15:26:32,271 INFO    Thread-99 :99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/files/conda-environment.yaml
+2022-09-18 15:26:32,322 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:26:32,323 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:26:32,433 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:26:32,434 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:26:32,476 INFO    Thread-89 :99714 [sender.py:transition_state():459] send defer: 9
+2022-09-18 15:26:32,478 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:26:32,478 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 9
+2022-09-18 15:26:32,478 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:26:32,478 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-09-18 15:26:32,539 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:26:32,709 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 10
+2022-09-18 15:26:32,710 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:26:32,711 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:26:32,712 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 10
+2022-09-18 15:26:32,712 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:26:32,713 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-09-18 15:26:32,714 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 11
+2022-09-18 15:26:32,714 DEBUG   SenderThread:99714 [sender.py:send():302] send: final
+2022-09-18 15:26:32,715 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:26:32,715 DEBUG   SenderThread:99714 [sender.py:send():302] send: footer
+2022-09-18 15:26:32,715 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 11
+2022-09-18 15:26:32,716 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:26:32,716 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-09-18 15:26:32,822 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:26:32,822 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:26:32,823 INFO    SenderThread:99714 [file_pusher.py:join():176] waiting for file pusher
+2022-09-18 15:26:33,175 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: sampled_history
+2022-09-18 15:26:33,178 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: get_summary
+2022-09-18 15:26:33,179 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: shutdown
+2022-09-18 15:26:33,179 INFO    HandlerThread:99714 [handler.py:finish():810] shutting down handler
+2022-09-18 15:26:33,721 INFO    WriterThread:99714 [datastore.py:close():279] close: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152541-1ij69wsn/run-1ij69wsn.wandb
+2022-09-18 15:26:34,070 INFO    SenderThread:99714 [sender.py:finish():1312] shutting down sender
+2022-09-18 15:26:34,072 INFO    SenderThread:99714 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-18 15:26:34,072 INFO    SenderThread:99714 [file_pusher.py:join():176] waiting for file pusher
+2022-09-18 15:26:35,188 INFO    StreamThr :99714 [internal.py:wandb_internal():90] W&B internal server running at pid: 99714, started at: 2022-09-18 15:26:35.187513
+2022-09-18 15:26:35,190 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: status
+2022-09-18 15:26:35,191 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: status
+2022-09-18 15:26:35,193 DEBUG   SenderThread:99714 [sender.py:send():302] send: header
+2022-09-18 15:26:35,193 INFO    WriterThread:99714 [datastore.py:open_for_write():75] open: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/run-14pu3alm.wandb
+2022-09-18 15:26:35,193 DEBUG   SenderThread:99714 [sender.py:send():302] send: run
+2022-09-18 15:26:35,520 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: check_version
+2022-09-18 15:26:35,520 INFO    SenderThread:99714 [dir_watcher.py:__init__():216] watching files in: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files
+2022-09-18 15:26:35,521 INFO    SenderThread:99714 [sender.py:_start_run_threads():913] run started: 14pu3alm with start time 1663539994.196366
+2022-09-18 15:26:35,521 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:26:35,521 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:26:35,521 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: check_version
+2022-09-18 15:26:35,609 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: run_start
+2022-09-18 15:26:35,611 DEBUG   HandlerThread:99714 [meta.py:__init__():35] meta init
+2022-09-18 15:26:35,618 DEBUG   HandlerThread:99714 [meta.py:__init__():50] meta init done
+2022-09-18 15:26:35,619 DEBUG   HandlerThread:99714 [meta.py:probe():216] probe
+2022-09-18 15:26:35,621 DEBUG   HandlerThread:99714 [meta.py:_setup_git():206] setup git
+2022-09-18 15:26:35,644 DEBUG   HandlerThread:99714 [meta.py:_setup_git():213] setup git done
+2022-09-18 15:26:35,645 DEBUG   HandlerThread:99714 [meta.py:_save_pip():54] save pip
+2022-09-18 15:26:35,646 DEBUG   HandlerThread:99714 [meta.py:_save_pip():68] save pip done
+2022-09-18 15:26:35,646 DEBUG   HandlerThread:99714 [meta.py:_save_conda():75] save conda
+2022-09-18 15:26:36,526 INFO    Thread-109:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/requirements.txt
+2022-09-18 15:26:36,527 INFO    Thread-109:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/wandb-summary.json
+2022-09-18 15:26:36,527 INFO    Thread-109:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/conda-environment.yaml
+2022-09-18 15:26:39,222 DEBUG   HandlerThread:99714 [meta.py:_save_conda():85] save conda done
+2022-09-18 15:26:39,222 DEBUG   HandlerThread:99714 [meta.py:probe():254] probe done
+2022-09-18 15:26:39,223 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:26:39,223 DEBUG   SenderThread:99714 [sender.py:send():302] send: files
+2022-09-18 15:26:39,223 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-18 15:26:39,230 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:26:39,230 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:26:39,330 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:26:39,536 INFO    Thread-109:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/conda-environment.yaml
+2022-09-18 15:26:39,536 INFO    Thread-109:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/wandb-metadata.json
+2022-09-18 15:26:39,689 INFO    Thread-113:99714 [upload_job.py:push():138] Uploaded file /var/folders/0j/6hw7rjfs69q8cbklt2rwbj4r0000gn/T/tmp4e11t7grwandb/1rzwsphc-wandb-metadata.json
+2022-09-18 15:26:44,493 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:26:44,555 INFO    Thread-109:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/output.log
+2022-09-18 15:26:46,567 INFO    Thread-109:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/output.log
+2022-09-18 15:26:54,337 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:26:54,338 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:27:03,217 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:27:03,218 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:03,218 DEBUG   SenderThread:99714 [sender.py:send():302] send: exit
+2022-09-18 15:27:03,218 INFO    SenderThread:99714 [sender.py:send_exit():438] handling exit code: 0
+2022-09-18 15:27:03,218 INFO    SenderThread:99714 [sender.py:send_exit():440] handling runtime: 27
+2022-09-18 15:27:03,219 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:27:03,219 INFO    SenderThread:99714 [sender.py:send_exit():446] send defer
+2022-09-18 15:27:03,220 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:03,220 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:03,220 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 0
+2022-09-18 15:27:03,220 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:03,220 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-09-18 15:27:03,220 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 1
+2022-09-18 15:27:03,220 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:03,220 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 1
+2022-09-18 15:27:03,642 INFO    Thread-109:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/wandb-summary.json
+2022-09-18 15:27:03,987 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:03,987 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:03,987 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-09-18 15:27:03,987 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 2
+2022-09-18 15:27:03,987 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:03,988 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:03,988 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:27:03,988 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 2
+2022-09-18 15:27:03,989 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:03,989 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-09-18 15:27:03,989 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 3
+2022-09-18 15:27:03,989 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:03,989 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 3
+2022-09-18 15:27:03,989 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:03,989 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-09-18 15:27:03,989 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 4
+2022-09-18 15:27:03,989 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:03,989 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 4
+2022-09-18 15:27:03,990 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:27:03,990 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:27:03,990 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:03,990 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-09-18 15:27:03,990 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 5
+2022-09-18 15:27:03,990 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:03,991 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 5
+2022-09-18 15:27:03,991 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:03,991 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-09-18 15:27:04,094 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:04,117 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 6
+2022-09-18 15:27:04,118 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:04,118 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:04,118 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 6
+2022-09-18 15:27:04,119 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:04,119 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-09-18 15:27:04,221 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:04,564 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 7
+2022-09-18 15:27:04,565 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:04,565 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:04,566 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 7
+2022-09-18 15:27:04,567 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:04,567 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-09-18 15:27:04,567 INFO    SenderThread:99714 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-18 15:27:04,646 INFO    Thread-109:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/config.yaml
+2022-09-18 15:27:04,648 INFO    SenderThread:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/wandb-summary.json
+2022-09-18 15:27:04,648 INFO    SenderThread:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/output.log
+2022-09-18 15:27:04,649 INFO    SenderThread:99714 [dir_watcher.py:finish():392] scan: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files
+2022-09-18 15:27:04,649 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/requirements.txt requirements.txt
+2022-09-18 15:27:04,649 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/output.log output.log
+2022-09-18 15:27:04,671 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:04,674 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/config.yaml config.yaml
+2022-09-18 15:27:04,677 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/wandb-summary.json wandb-summary.json
+2022-09-18 15:27:04,681 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/conda-environment.yaml conda-environment.yaml
+2022-09-18 15:27:04,684 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/wandb-metadata.json wandb-metadata.json
+2022-09-18 15:27:04,687 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 8
+2022-09-18 15:27:04,688 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:04,688 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:04,689 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 8
+2022-09-18 15:27:04,690 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:04,690 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-09-18 15:27:04,690 INFO    SenderThread:99714 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-18 15:27:04,796 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:04,796 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:04,902 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:04,902 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:05,008 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:05,009 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:05,115 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:05,115 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:05,176 INFO    Thread-114:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/requirements.txt
+2022-09-18 15:27:05,222 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:05,223 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:05,251 INFO    Thread-117:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/wandb-summary.json
+2022-09-18 15:27:05,253 INFO    Thread-115:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/output.log
+2022-09-18 15:27:05,255 INFO    Thread-118:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/conda-environment.yaml
+2022-09-18 15:27:05,326 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:05,326 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:05,437 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:05,438 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:05,546 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:05,547 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:05,589 INFO    Thread-116:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/files/config.yaml
+2022-09-18 15:27:05,655 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:05,656 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:05,767 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:05,768 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:05,794 INFO    Thread-108:99714 [sender.py:transition_state():459] send defer: 9
+2022-09-18 15:27:05,796 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:05,796 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 9
+2022-09-18 15:27:05,797 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:05,797 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-09-18 15:27:05,879 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:05,883 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 10
+2022-09-18 15:27:05,884 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:05,884 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:05,885 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 10
+2022-09-18 15:27:05,885 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:05,886 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-09-18 15:27:05,886 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 11
+2022-09-18 15:27:05,887 DEBUG   SenderThread:99714 [sender.py:send():302] send: final
+2022-09-18 15:27:05,887 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:05,887 DEBUG   SenderThread:99714 [sender.py:send():302] send: footer
+2022-09-18 15:27:05,888 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 11
+2022-09-18 15:27:05,888 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:05,888 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-09-18 15:27:05,993 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:05,993 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:05,994 INFO    SenderThread:99714 [file_pusher.py:join():176] waiting for file pusher
+2022-09-18 15:27:06,313 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: sampled_history
+2022-09-18 15:27:06,315 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: get_summary
+2022-09-18 15:27:06,316 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: shutdown
+2022-09-18 15:27:06,316 INFO    HandlerThread:99714 [handler.py:finish():810] shutting down handler
+2022-09-18 15:27:06,892 INFO    WriterThread:99714 [datastore.py:close():279] close: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152629-14pu3alm/run-14pu3alm.wandb
+2022-09-18 15:27:07,210 INFO    SenderThread:99714 [sender.py:finish():1312] shutting down sender
+2022-09-18 15:27:07,212 INFO    SenderThread:99714 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-18 15:27:07,212 INFO    SenderThread:99714 [file_pusher.py:join():176] waiting for file pusher
+2022-09-18 15:27:08,326 INFO    StreamThr :99714 [internal.py:wandb_internal():90] W&B internal server running at pid: 99714, started at: 2022-09-18 15:27:08.325131
+2022-09-18 15:27:08,328 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: status
+2022-09-18 15:27:08,329 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: status
+2022-09-18 15:27:08,331 DEBUG   SenderThread:99714 [sender.py:send():302] send: header
+2022-09-18 15:27:08,331 INFO    WriterThread:99714 [datastore.py:open_for_write():75] open: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/run-1kh957h7.wandb
+2022-09-18 15:27:08,331 DEBUG   SenderThread:99714 [sender.py:send():302] send: run
+2022-09-18 15:27:08,630 INFO    SenderThread:99714 [dir_watcher.py:__init__():216] watching files in: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files
+2022-09-18 15:27:08,630 INFO    SenderThread:99714 [sender.py:_start_run_threads():913] run started: 1kh957h7 with start time 1663540027.333312
+2022-09-18 15:27:08,631 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:27:08,631 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:27:08,632 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: check_version
+2022-09-18 15:27:08,632 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: check_version
+2022-09-18 15:27:08,738 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: run_start
+2022-09-18 15:27:08,739 DEBUG   HandlerThread:99714 [meta.py:__init__():35] meta init
+2022-09-18 15:27:08,743 DEBUG   HandlerThread:99714 [meta.py:__init__():50] meta init done
+2022-09-18 15:27:08,743 DEBUG   HandlerThread:99714 [meta.py:probe():216] probe
+2022-09-18 15:27:08,746 DEBUG   HandlerThread:99714 [meta.py:_setup_git():206] setup git
+2022-09-18 15:27:08,771 DEBUG   HandlerThread:99714 [meta.py:_setup_git():213] setup git done
+2022-09-18 15:27:08,772 DEBUG   HandlerThread:99714 [meta.py:_save_pip():54] save pip
+2022-09-18 15:27:08,773 DEBUG   HandlerThread:99714 [meta.py:_save_pip():68] save pip done
+2022-09-18 15:27:08,773 DEBUG   HandlerThread:99714 [meta.py:_save_conda():75] save conda
+2022-09-18 15:27:09,636 INFO    Thread-128:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/wandb-summary.json
+2022-09-18 15:27:09,636 INFO    Thread-128:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/requirements.txt
+2022-09-18 15:27:09,636 INFO    Thread-128:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/conda-environment.yaml
+2022-09-18 15:27:12,368 DEBUG   HandlerThread:99714 [meta.py:_save_conda():85] save conda done
+2022-09-18 15:27:12,369 DEBUG   HandlerThread:99714 [meta.py:probe():254] probe done
+2022-09-18 15:27:12,370 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:27:12,370 DEBUG   SenderThread:99714 [sender.py:send():302] send: files
+2022-09-18 15:27:12,370 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-18 15:27:12,376 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:27:12,377 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:27:12,485 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:27:12,646 INFO    Thread-128:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/conda-environment.yaml
+2022-09-18 15:27:12,646 INFO    Thread-128:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/wandb-metadata.json
+2022-09-18 15:27:12,846 INFO    Thread-132:99714 [upload_job.py:push():138] Uploaded file /var/folders/0j/6hw7rjfs69q8cbklt2rwbj4r0000gn/T/tmppyvqnulbwandb/38c8ci61-wandb-metadata.json
+2022-09-18 15:27:17,483 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: pause
+2022-09-18 15:27:17,484 INFO    HandlerThread:99714 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-09-18 15:27:18,572 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:27:27,498 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:27:27,499 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:27:38,771 INFO    Thread-128:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/config.yaml
+2022-09-18 15:27:42,664 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:27:42,671 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:27:42,755 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: resume
+2022-09-18 15:27:42,755 INFO    HandlerThread:99714 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-09-18 15:27:42,843 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:27:42,844 DEBUG   SenderThread:99714 [sender.py:send():302] send: exit
+2022-09-18 15:27:42,844 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:42,844 INFO    SenderThread:99714 [sender.py:send_exit():438] handling exit code: 0
+2022-09-18 15:27:42,844 INFO    SenderThread:99714 [sender.py:send_exit():440] handling runtime: 9
+2022-09-18 15:27:42,845 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:27:42,845 INFO    SenderThread:99714 [sender.py:send_exit():446] send defer
+2022-09-18 15:27:42,845 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:42,845 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:42,846 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 0
+2022-09-18 15:27:42,846 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:42,846 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-09-18 15:27:42,846 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 1
+2022-09-18 15:27:42,846 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:42,846 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 1
+2022-09-18 15:27:43,806 INFO    Thread-128:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/wandb-summary.json
+2022-09-18 15:27:43,806 INFO    Thread-128:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/output.log
+2022-09-18 15:27:44,123 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:44,123 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:44,123 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-09-18 15:27:44,123 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 2
+2022-09-18 15:27:44,124 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:44,124 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:44,124 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:27:44,124 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 2
+2022-09-18 15:27:44,125 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:44,125 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-09-18 15:27:44,125 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 3
+2022-09-18 15:27:44,125 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:44,125 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 3
+2022-09-18 15:27:44,125 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:44,125 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-09-18 15:27:44,125 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 4
+2022-09-18 15:27:44,125 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:44,125 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 4
+2022-09-18 15:27:44,125 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:27:44,126 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:27:44,126 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:44,126 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-09-18 15:27:44,126 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 5
+2022-09-18 15:27:44,126 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:44,126 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 5
+2022-09-18 15:27:44,126 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:44,126 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-09-18 15:27:44,227 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:44,257 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 6
+2022-09-18 15:27:44,257 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:44,257 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:44,258 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 6
+2022-09-18 15:27:44,258 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:44,258 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-09-18 15:27:44,361 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:44,814 INFO    Thread-128:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/wandb-summary.json
+2022-09-18 15:27:44,815 INFO    Thread-128:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/config.yaml
+2022-09-18 15:27:44,829 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 7
+2022-09-18 15:27:44,829 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:44,830 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:44,831 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 7
+2022-09-18 15:27:44,832 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:44,832 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-09-18 15:27:44,832 INFO    SenderThread:99714 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-18 15:27:44,941 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:45,819 INFO    Thread-128:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/output.log
+2022-09-18 15:27:45,819 INFO    SenderThread:99714 [dir_watcher.py:finish():392] scan: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files
+2022-09-18 15:27:45,819 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/requirements.txt requirements.txt
+2022-09-18 15:27:45,820 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/output.log output.log
+2022-09-18 15:27:45,822 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/config.yaml config.yaml
+2022-09-18 15:27:45,823 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/wandb-summary.json wandb-summary.json
+2022-09-18 15:27:45,825 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/conda-environment.yaml conda-environment.yaml
+2022-09-18 15:27:45,826 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/wandb-metadata.json wandb-metadata.json
+2022-09-18 15:27:45,827 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 8
+2022-09-18 15:27:45,827 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:45,830 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:45,830 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 8
+2022-09-18 15:27:45,831 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:45,831 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-09-18 15:27:45,832 INFO    SenderThread:99714 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-18 15:27:45,937 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:45,937 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:46,040 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:46,040 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:46,147 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:46,147 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:46,250 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:46,250 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:46,311 INFO    Thread-135:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/output.log
+2022-09-18 15:27:46,318 INFO    Thread-134:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/requirements.txt
+2022-09-18 15:27:46,326 INFO    Thread-137:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/wandb-summary.json
+2022-09-18 15:27:46,329 INFO    Thread-136:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/config.yaml
+2022-09-18 15:27:46,333 INFO    Thread-138:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/files/conda-environment.yaml
+2022-09-18 15:27:46,357 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:46,357 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:46,462 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:46,462 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:46,538 INFO    Thread-127:99714 [sender.py:transition_state():459] send defer: 9
+2022-09-18 15:27:46,539 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:46,539 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 9
+2022-09-18 15:27:46,540 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:46,540 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-09-18 15:27:46,571 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:46,672 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 10
+2022-09-18 15:27:46,672 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:46,673 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:46,674 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 10
+2022-09-18 15:27:46,674 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:46,675 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-09-18 15:27:46,675 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 11
+2022-09-18 15:27:46,676 DEBUG   SenderThread:99714 [sender.py:send():302] send: final
+2022-09-18 15:27:46,676 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:27:46,676 DEBUG   SenderThread:99714 [sender.py:send():302] send: footer
+2022-09-18 15:27:46,677 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 11
+2022-09-18 15:27:46,677 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:27:46,678 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-09-18 15:27:46,777 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:27:46,777 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:27:46,777 INFO    SenderThread:99714 [file_pusher.py:join():176] waiting for file pusher
+2022-09-18 15:27:47,104 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: sampled_history
+2022-09-18 15:27:47,106 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: get_summary
+2022-09-18 15:27:47,107 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: shutdown
+2022-09-18 15:27:47,108 INFO    HandlerThread:99714 [handler.py:finish():810] shutting down handler
+2022-09-18 15:27:47,681 INFO    WriterThread:99714 [datastore.py:close():279] close: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152703-1kh957h7/run-1kh957h7.wandb
+2022-09-18 15:27:47,999 INFO    SenderThread:99714 [sender.py:finish():1312] shutting down sender
+2022-09-18 15:27:48,001 INFO    SenderThread:99714 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-18 15:27:48,001 INFO    SenderThread:99714 [file_pusher.py:join():176] waiting for file pusher
+2022-09-18 15:27:49,118 INFO    StreamThr :99714 [internal.py:wandb_internal():90] W&B internal server running at pid: 99714, started at: 2022-09-18 15:27:49.116732
+2022-09-18 15:27:49,119 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: status
+2022-09-18 15:27:49,121 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: status
+2022-09-18 15:27:49,122 DEBUG   SenderThread:99714 [sender.py:send():302] send: header
+2022-09-18 15:27:49,122 INFO    WriterThread:99714 [datastore.py:open_for_write():75] open: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/run-34rxulbt.wandb
+2022-09-18 15:27:49,122 DEBUG   SenderThread:99714 [sender.py:send():302] send: run
+2022-09-18 15:27:49,395 INFO    SenderThread:99714 [dir_watcher.py:__init__():216] watching files in: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files
+2022-09-18 15:27:49,395 INFO    SenderThread:99714 [sender.py:_start_run_threads():913] run started: 34rxulbt with start time 1663540068.122238
+2022-09-18 15:27:49,395 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: check_version
+2022-09-18 15:27:49,396 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:27:49,397 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:27:49,397 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: check_version
+2022-09-18 15:27:49,523 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: run_start
+2022-09-18 15:27:49,527 DEBUG   HandlerThread:99714 [meta.py:__init__():35] meta init
+2022-09-18 15:27:49,528 DEBUG   HandlerThread:99714 [meta.py:__init__():50] meta init done
+2022-09-18 15:27:49,528 DEBUG   HandlerThread:99714 [meta.py:probe():216] probe
+2022-09-18 15:27:49,530 DEBUG   HandlerThread:99714 [meta.py:_setup_git():206] setup git
+2022-09-18 15:27:49,554 DEBUG   HandlerThread:99714 [meta.py:_setup_git():213] setup git done
+2022-09-18 15:27:49,554 DEBUG   HandlerThread:99714 [meta.py:_save_pip():54] save pip
+2022-09-18 15:27:49,555 DEBUG   HandlerThread:99714 [meta.py:_save_pip():68] save pip done
+2022-09-18 15:27:49,555 DEBUG   HandlerThread:99714 [meta.py:_save_conda():75] save conda
+2022-09-18 15:27:50,401 INFO    Thread-148:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/conda-environment.yaml
+2022-09-18 15:27:50,401 INFO    Thread-148:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/wandb-summary.json
+2022-09-18 15:27:50,401 INFO    Thread-148:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/requirements.txt
+2022-09-18 15:27:53,132 DEBUG   HandlerThread:99714 [meta.py:_save_conda():85] save conda done
+2022-09-18 15:27:53,132 DEBUG   HandlerThread:99714 [meta.py:probe():254] probe done
+2022-09-18 15:27:53,133 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:27:53,133 DEBUG   SenderThread:99714 [sender.py:send():302] send: files
+2022-09-18 15:27:53,133 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-18 15:27:53,139 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:27:53,140 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:27:53,240 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:27:53,411 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/conda-environment.yaml
+2022-09-18 15:27:53,412 INFO    Thread-148:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/wandb-metadata.json
+2022-09-18 15:27:54,026 INFO    Thread-152:99714 [upload_job.py:push():138] Uploaded file /var/folders/0j/6hw7rjfs69q8cbklt2rwbj4r0000gn/T/tmp2e019yrwwandb/1xe66xa5-wandb-metadata.json
+2022-09-18 15:27:58,429 INFO    Thread-148:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:00,440 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:02,450 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:04,468 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:06,485 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:08,246 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:28:08,246 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:28:08,496 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:10,505 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:12,516 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:14,523 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:16,529 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:18,540 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:19,543 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/config.yaml
+2022-09-18 15:28:20,544 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:22,555 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:23,421 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:28:23,422 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:28:24,567 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:26,586 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:28,597 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:30,605 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:32,615 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:33,523 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:28:34,626 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:36,629 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:38,547 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:28:38,547 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:28:38,637 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:40,647 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:42,653 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:44,665 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:46,672 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:48,684 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:50,698 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:51,847 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-18 15:28:51,848 DEBUG   SenderThread:99714 [sender.py:send():302] send: history
+2022-09-18 15:28:51,848 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:28:51,849 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:28:52,707 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:52,707 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/wandb-summary.json
+2022-09-18 15:28:53,757 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:28:53,758 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:28:54,721 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:56,731 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:28:58,743 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:00,749 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:02,761 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:04,768 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:06,774 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:08,780 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:08,881 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:29:08,881 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:29:10,789 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:12,801 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:14,811 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:16,823 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:18,831 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:20,511 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:29:20,841 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:22,853 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:24,009 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:29:24,009 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:29:24,859 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:26,873 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:28,878 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:30,887 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:32,896 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:34,903 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:36,914 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:38,922 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:39,132 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:29:39,133 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:29:40,933 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:42,940 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:44,947 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:45,918 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-18 15:29:45,918 DEBUG   SenderThread:99714 [sender.py:send():302] send: history
+2022-09-18 15:29:45,918 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:29:45,919 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:29:45,955 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/wandb-summary.json
+2022-09-18 15:29:46,956 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:48,959 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:50,964 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:52,975 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:54,265 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:29:54,267 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:29:54,985 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:56,993 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:29:59,000 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:01,014 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:03,022 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:05,024 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:07,035 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:07,910 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:30:09,040 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:09,403 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:30:09,403 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:30:11,049 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:13,058 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:15,069 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:17,078 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:19,081 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:21,094 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:23,104 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:24,525 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:30:24,525 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:30:25,113 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:27,120 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:29,133 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:31,142 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:33,154 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:35,167 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:35,953 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-18 15:30:35,954 DEBUG   SenderThread:99714 [sender.py:send():302] send: history
+2022-09-18 15:30:35,954 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:30:35,954 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:30:36,172 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/wandb-summary.json
+2022-09-18 15:30:37,178 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:39,188 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:39,661 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:30:39,661 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:30:41,195 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:43,203 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:45,210 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:47,227 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:49,229 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:51,241 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:53,251 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:54,780 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:30:54,781 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:30:55,156 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:30:55,261 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:57,271 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:30:59,278 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:01,288 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:03,294 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:05,304 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:07,315 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:09,331 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:09,917 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:31:09,918 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:31:11,340 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:13,351 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:15,365 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:17,374 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:19,386 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:21,395 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:23,406 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:25,045 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:31:25,046 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:31:25,418 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:27,236 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-18 15:31:27,236 DEBUG   SenderThread:99714 [sender.py:send():302] send: history
+2022-09-18 15:31:27,236 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:31:27,237 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:31:27,429 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:27,430 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/wandb-summary.json
+2022-09-18 15:31:29,440 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:31,451 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:33,462 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:35,473 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:37,484 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:39,493 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:40,179 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:31:40,180 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:31:41,500 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:41,756 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:31:43,510 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:45,520 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:47,530 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:49,536 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:51,549 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:53,556 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:55,304 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:31:55,304 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:31:55,567 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:57,573 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:31:59,584 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:32:01,594 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:32:03,605 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:32:05,613 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:32:07,619 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:32:09,628 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:32:10,448 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:32:10,448 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:32:11,637 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:32:13,649 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:32:15,658 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:32:17,668 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:32:18,042 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-18 15:32:18,042 DEBUG   SenderThread:99714 [sender.py:send():302] send: history
+2022-09-18 15:32:18,043 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:32:18,043 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:32:18,675 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/wandb-summary.json
+2022-09-18 15:32:19,677 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:32:25,568 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:32:25,569 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:32:27,263 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:32:40,685 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:32:40,686 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:32:55,803 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:32:55,804 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:33:09,780 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:33:10,955 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:33:10,957 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:33:26,092 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:33:26,093 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:33:41,243 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:33:41,244 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:33:52,485 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:33:56,453 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:33:56,454 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:34:11,648 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:34:11,649 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:34:26,778 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:34:26,779 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:34:35,292 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:34:41,910 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:34:41,911 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:34:57,046 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:34:57,047 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:35:12,165 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:35:12,167 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:35:17,959 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:35:27,296 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:35:27,297 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:35:42,424 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:35:42,424 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:35:57,541 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:35:57,541 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:36:00,787 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:36:12,661 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:36:12,663 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:36:27,797 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:36:27,798 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:36:42,922 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:36:42,923 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:36:43,532 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:36:58,121 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:36:58,121 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:37:13,282 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:37:13,284 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:37:26,401 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:37:28,413 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:37:28,414 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:37:43,537 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:37:43,539 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:37:58,676 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:37:58,677 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:38:09,231 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:38:13,804 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:38:13,805 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:38:28,952 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:38:28,953 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:38:44,078 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:38:44,078 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:38:52,074 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:38:59,218 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:38:59,219 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:39:14,356 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:39:14,356 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:39:29,503 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:39:29,504 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:39:35,033 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:39:44,638 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:39:44,640 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:39:59,782 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:39:59,782 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:40:14,903 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:40:14,905 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:40:17,814 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:40:25,390 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:40:25,390 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:40:25,391 DEBUG   SenderThread:99714 [sender.py:send():302] send: exit
+2022-09-18 15:40:25,391 INFO    SenderThread:99714 [sender.py:send_exit():438] handling exit code: 0
+2022-09-18 15:40:25,391 INFO    SenderThread:99714 [sender.py:send_exit():440] handling runtime: 755
+2022-09-18 15:40:25,391 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:40:25,391 INFO    SenderThread:99714 [sender.py:send_exit():446] send defer
+2022-09-18 15:40:25,392 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:40:25,392 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:40:25,392 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 0
+2022-09-18 15:40:25,392 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:40:25,392 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 0
+2022-09-18 15:40:25,393 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 1
+2022-09-18 15:40:25,393 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:40:25,393 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 1
+2022-09-18 15:40:25,954 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/wandb-summary.json
+2022-09-18 15:40:26,170 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:40:26,170 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:40:26,171 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 1
+2022-09-18 15:40:26,171 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 2
+2022-09-18 15:40:26,173 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:40:26,173 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 2
+2022-09-18 15:40:26,298 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:40:26,298 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:40:26,299 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:40:26,299 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 2
+2022-09-18 15:40:26,299 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 3
+2022-09-18 15:40:26,300 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:40:26,300 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 3
+2022-09-18 15:40:26,300 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:40:26,300 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 3
+2022-09-18 15:40:26,300 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 4
+2022-09-18 15:40:26,300 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:40:26,301 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 4
+2022-09-18 15:40:26,301 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:40:26,301 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:40:26,302 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:40:26,302 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 4
+2022-09-18 15:40:26,302 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 5
+2022-09-18 15:40:26,302 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:40:26,303 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 5
+2022-09-18 15:40:26,303 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:40:26,303 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 5
+2022-09-18 15:40:26,303 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 6
+2022-09-18 15:40:26,303 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:40:26,303 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 6
+2022-09-18 15:40:26,304 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:40:26,304 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 6
+2022-09-18 15:40:26,406 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:40:26,955 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/config.yaml
+2022-09-18 15:40:26,955 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:40:26,955 INFO    Thread-148:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/wandb-summary.json
+2022-09-18 15:40:28,070 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 7
+2022-09-18 15:40:28,070 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:40:28,070 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:40:28,070 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 7
+2022-09-18 15:40:28,071 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:40:28,071 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 7
+2022-09-18 15:40:28,071 INFO    SenderThread:99714 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-09-18 15:40:28,177 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:40:28,964 INFO    SenderThread:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:40:28,968 INFO    SenderThread:99714 [dir_watcher.py:finish():392] scan: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files
+2022-09-18 15:40:28,969 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/requirements.txt requirements.txt
+2022-09-18 15:40:28,970 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log output.log
+2022-09-18 15:40:28,973 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/config.yaml config.yaml
+2022-09-18 15:40:28,977 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/wandb-summary.json wandb-summary.json
+2022-09-18 15:40:28,981 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/conda-environment.yaml conda-environment.yaml
+2022-09-18 15:40:28,984 INFO    SenderThread:99714 [dir_watcher.py:finish():406] scan save: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/wandb-metadata.json wandb-metadata.json
+2022-09-18 15:40:28,987 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 8
+2022-09-18 15:40:28,987 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:40:28,988 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:40:28,989 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 8
+2022-09-18 15:40:28,990 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:40:28,990 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 8
+2022-09-18 15:40:28,990 INFO    SenderThread:99714 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-18 15:40:29,096 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:40:29,096 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:40:29,199 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:40:29,200 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:40:29,306 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:40:29,307 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:40:29,408 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:40:29,409 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:40:29,477 INFO    Thread-156:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/wandb-summary.json
+2022-09-18 15:40:29,485 INFO    Thread-155:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/config.yaml
+2022-09-18 15:40:29,487 INFO    Thread-157:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/conda-environment.yaml
+2022-09-18 15:40:29,488 INFO    Thread-153:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/requirements.txt
+2022-09-18 15:40:29,515 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:40:29,515 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:40:29,523 INFO    Thread-154:99714 [upload_job.py:push():138] Uploaded file /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/files/output.log
+2022-09-18 15:40:29,622 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:40:29,622 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:40:29,729 INFO    Thread-147:99714 [sender.py:transition_state():459] send defer: 9
+2022-09-18 15:40:29,729 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:40:29,730 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:40:29,730 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:40:29,731 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 9
+2022-09-18 15:40:29,731 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:40:29,731 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 9
+2022-09-18 15:40:29,844 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:40:30,011 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 10
+2022-09-18 15:40:30,012 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:40:30,012 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:40:30,013 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 10
+2022-09-18 15:40:30,013 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:40:30,013 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 10
+2022-09-18 15:40:30,014 INFO    SenderThread:99714 [sender.py:transition_state():459] send defer: 11
+2022-09-18 15:40:30,014 DEBUG   SenderThread:99714 [sender.py:send():302] send: final
+2022-09-18 15:40:30,014 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: defer
+2022-09-18 15:40:30,015 DEBUG   SenderThread:99714 [sender.py:send():302] send: footer
+2022-09-18 15:40:30,015 INFO    HandlerThread:99714 [handler.py:handle_request_defer():164] handle defer: 11
+2022-09-18 15:40:30,015 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: defer
+2022-09-18 15:40:30,015 INFO    SenderThread:99714 [sender.py:send_request_defer():455] handle sender defer: 11
+2022-09-18 15:40:30,120 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: poll_exit
+2022-09-18 15:40:30,120 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: poll_exit
+2022-09-18 15:40:30,120 INFO    SenderThread:99714 [file_pusher.py:join():176] waiting for file pusher
+2022-09-18 15:40:30,487 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: sampled_history
+2022-09-18 15:40:30,491 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: get_summary
+2022-09-18 15:40:30,493 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: shutdown
+2022-09-18 15:40:30,493 INFO    HandlerThread:99714 [handler.py:finish():810] shutting down handler
+2022-09-18 15:40:31,019 INFO    WriterThread:99714 [datastore.py:close():279] close: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_152742-34rxulbt/run-34rxulbt.wandb
+2022-09-18 15:40:31,380 INFO    SenderThread:99714 [sender.py:finish():1312] shutting down sender
+2022-09-18 15:40:31,380 INFO    SenderThread:99714 [file_pusher.py:finish():171] shutting down file pusher
+2022-09-18 15:40:31,380 INFO    SenderThread:99714 [file_pusher.py:join():176] waiting for file pusher
+2022-09-18 15:40:32,505 INFO    StreamThr :99714 [internal.py:wandb_internal():90] W&B internal server running at pid: 99714, started at: 2022-09-18 15:40:32.504646
+2022-09-18 15:40:32,507 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: status
+2022-09-18 15:40:32,509 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: status
+2022-09-18 15:40:32,510 INFO    WriterThread:99714 [datastore.py:open_for_write():75] open: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/run-afkr46s0.wandb
+2022-09-18 15:40:32,510 DEBUG   SenderThread:99714 [sender.py:send():302] send: header
+2022-09-18 15:40:32,511 DEBUG   SenderThread:99714 [sender.py:send():302] send: run
+2022-09-18 15:40:32,760 INFO    SenderThread:99714 [dir_watcher.py:__init__():216] watching files in: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files
+2022-09-18 15:40:32,761 INFO    SenderThread:99714 [sender.py:_start_run_threads():913] run started: afkr46s0 with start time 1663540831.500294
+2022-09-18 15:40:32,761 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:40:32,761 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: check_version
+2022-09-18 15:40:32,762 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:40:32,762 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: check_version
+2022-09-18 15:40:32,842 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: run_start
+2022-09-18 15:40:32,843 DEBUG   HandlerThread:99714 [meta.py:__init__():35] meta init
+2022-09-18 15:40:32,846 DEBUG   HandlerThread:99714 [meta.py:__init__():50] meta init done
+2022-09-18 15:40:32,847 DEBUG   HandlerThread:99714 [meta.py:probe():216] probe
+2022-09-18 15:40:32,848 DEBUG   HandlerThread:99714 [meta.py:_setup_git():206] setup git
+2022-09-18 15:40:32,869 DEBUG   HandlerThread:99714 [meta.py:_setup_git():213] setup git done
+2022-09-18 15:40:32,870 DEBUG   HandlerThread:99714 [meta.py:_save_pip():54] save pip
+2022-09-18 15:40:32,870 DEBUG   HandlerThread:99714 [meta.py:_save_pip():68] save pip done
+2022-09-18 15:40:32,871 DEBUG   HandlerThread:99714 [meta.py:_save_conda():75] save conda
+2022-09-18 15:40:33,766 INFO    Thread-167:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/conda-environment.yaml
+2022-09-18 15:40:33,767 INFO    Thread-167:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/requirements.txt
+2022-09-18 15:40:33,767 INFO    Thread-167:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/wandb-summary.json
+2022-09-18 15:40:36,500 DEBUG   HandlerThread:99714 [meta.py:_save_conda():85] save conda done
+2022-09-18 15:40:36,500 DEBUG   HandlerThread:99714 [meta.py:probe():254] probe done
+2022-09-18 15:40:36,501 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:40:36,502 DEBUG   SenderThread:99714 [sender.py:send():302] send: files
+2022-09-18 15:40:36,502 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2022-09-18 15:40:36,508 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:40:36,508 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:40:36,614 DEBUG   SenderThread:99714 [sender.py:send():302] send: telemetry
+2022-09-18 15:40:36,774 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/conda-environment.yaml
+2022-09-18 15:40:36,774 INFO    Thread-167:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/wandb-metadata.json
+2022-09-18 15:40:37,001 INFO    Thread-171:99714 [upload_job.py:push():138] Uploaded file /var/folders/0j/6hw7rjfs69q8cbklt2rwbj4r0000gn/T/tmp154sr_zkwandb/3c9puo7b-wandb-metadata.json
+2022-09-18 15:40:41,800 INFO    Thread-167:99714 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:40:43,806 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:40:45,815 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:40:47,826 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:40:49,835 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:40:51,621 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:40:51,622 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:40:51,847 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:40:53,858 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:40:55,867 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:40:57,879 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:40:59,888 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:01,903 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:02,904 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/config.yaml
+2022-09-18 15:41:03,909 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:05,917 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:06,746 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:41:06,746 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:41:07,935 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:09,944 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:11,952 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:13,964 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:15,973 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:17,154 DEBUG   SenderThread:99714 [sender.py:send():302] send: stats
+2022-09-18 15:41:17,982 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:19,993 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:21,863 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: stop_status
+2022-09-18 15:41:21,863 DEBUG   SenderThread:99714 [sender.py:send_request():316] send_request: stop_status
+2022-09-18 15:41:22,000 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:24,011 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:26,017 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:28,032 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:30,042 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:32,052 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:33,130 DEBUG   HandlerThread:99714 [handler.py:handle_request():141] handle_request: partial_history
+2022-09-18 15:41:33,137 DEBUG   SenderThread:99714 [sender.py:send():302] send: history
+2022-09-18 15:41:33,139 DEBUG   SenderThread:99714 [sender.py:send():302] send: summary
+2022-09-18 15:41:33,142 INFO    SenderThread:99714 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-09-18 15:41:34,054 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/output.log
+2022-09-18 15:41:34,054 INFO    Thread-167:99714 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20220918_154025-afkr46s0/files/wandb-summary.json

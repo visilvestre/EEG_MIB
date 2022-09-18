@@ -5,34 +5,25 @@ Created on Sun Sep 18 14:43:12 2022
 
 @author: vlourenco
 """
-import torch
 import wandb
-import argparse
 from EEGNet import EEGNet_torch
-from tools import loadeeg, framedata, findindexes, getdeviants, gettonics, distributedata, datashuffler, prepareForCrossEntropy, multiclass_acc
-from torch.utils.data import Dataset, DataLoader
+from tools import loadeeg, findindexes, getdeviants, gettonics, distributedata, datashuffler, framedata, prepareForCrossEntropy
+from torch.utils.data import DataLoader
 from operations import TrainDataset, test_score_model, test_epoch, train_epoch, eval_epoch, train
 
-parser = argparse.ArgumentParser()
-
-parser.add_argument("--gradient_accumulation_step", type=int, default=1)
-
-args = parser.parse_args()
-verbose = 1
-
-DEVICE = torch.device("mps")
-file = '/Users/vlourenco/Documents/GitHub/EEG_MIB/EEGNet Translated to PyTorch/P1_a1.mat'
-
-
-        
-
-
-
-def main_torch():
+def main():
+    """
+    main method is responsible for running the process logic flow 
+    to 
+    1- Prepare the data
+    2- Test EEGNet
+    ...
+    """
     
-    # Data Preparation
+    #1- Prepare Data
+    file = '/Users/vlourenco/Documents/GitHub/EEG_MIB/EEGNet Translated to PyTorch/P1_a1.mat'
     mat                     = loadeeg(file, verbose = 0)
-    #x, mat_framed           = framedata(mat, verbose = 1)
+    x, mat_framed           = framedata(mat, verbose = 0)
     d, j                    = findindexes(mat, verbose = 0)
     deviant                 = getdeviants(mat, d, verbose = 0)
     t,k                     = findindexes(mat, triggers_list=[25,65,45], verbose = 0)
@@ -40,8 +31,6 @@ def main_torch():
     x, y                    = distributedata(tonic, deviant, verbose = 0)
     x_shuffled, y_shuffled  = datashuffler(x,y)
     y_nn                    = prepareForCrossEntropy(y_shuffled, verbose = 0)
-
-
     
     #Define input tensor
     
@@ -72,7 +61,7 @@ def main_torch():
     
     n_epochs = 1
     
-    ### test zone ###
+    ###### test zone ######
 
     for epoch in range(n_epochs):
         train_loss = train_epoch(model, train_dataloader)
@@ -88,5 +77,4 @@ def main_torch():
     
     
 if __name__ == "__main__":
-    #main_tensorflow()
-    main_torch()
+    main()

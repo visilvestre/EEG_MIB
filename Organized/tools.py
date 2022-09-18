@@ -8,6 +8,9 @@ Created on Sun Sep 18 14:41:38 2022
 import scipy
 import matplotlib.pyplot as plt
 import numpy as np
+import wandb
+import torch
+from torch.utils.data import DataLoader, Dataset
 
 
 #### Data Engineering Functions ####
@@ -190,3 +193,15 @@ def multiclass_acc(preds, truths):
     :return: Classification accuracy
     """
     return np.sum(np.round(preds) == np.round(truths)) / float(len(truths))
+
+
+def use_wandb(projectname):
+    ###Configure Wandb to send data and create result graphs
+    wandb.init(project = projectname)
+    wandb.config = {
+      "learning_rate": 0.001,
+      "epochs": 5,
+      "batch_size": 128
+    }
+    
+    

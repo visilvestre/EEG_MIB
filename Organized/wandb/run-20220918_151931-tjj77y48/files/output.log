@@ -1,0 +1,31 @@
+
+<class 'EEGNet.EEGNet_torch'>
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]/Users/vlourenco/miniforge3/lib/python3.9/site-packages/torch/nn/modules/container.py:139: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration:  96%|█████████▋| 105/109 [00:49<00:01,  2.23it/s]
+
+Iteration: 100%|██████████| 109/109 [00:51<00:00,  2.12it/s]

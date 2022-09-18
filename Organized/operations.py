@@ -15,6 +15,7 @@ from torch.nn import MSELoss
 import argparse
 from sklearn.metrics import accuracy_score, f1_score
 from torch.utils.data import Dataset, DataLoader
+from tools import loadeeg, findindexes, getdeviants, gettonics, distributedata, datashuffler, framedata, prepareForCrossEntropy, multiclass_acc
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--gradient_accumulation_step", type=int, default=1)
@@ -24,7 +25,6 @@ verbose = 1
 
 DEVICE = torch.device("mps")
 file = '/Users/vlourenco/Documents/GitHub/EEG_MIB/EEGNet Translated to PyTorch/P1_a1.mat'
-
 
 class TrainDataset(Dataset):
     
@@ -41,7 +41,42 @@ class TrainDataset(Dataset):
     def __len__(self):
         return self.len
 
+def prepare_data():
+    #1- Prepare Data
+    file = '/Users/vlourenco/Documents/GitHub/EEG_MIB/EEGNet Translated to PyTorch/P1_a1.mat'
+    mat                     = loadeeg(file, verbose = 0)
+    x, mat_framed           = framedata(mat, verbose = 0)
+    d, j                    = findindexes(mat, verbose = 0)
+    deviant                 = getdeviants(mat, d, verbose = 0)
+    t,k                     = findindexes(mat, triggers_list=[25,65,45], verbose = 0)
+    tonic                   = gettonics(mat, t, verbose = 0)
+    x, y                    = distributedata(tonic, deviant, verbose = 0)
+    x_shuffled, y_shuffled  = datashuffler(x,y)
+    y_nn                    = prepareForCrossEntropy(y_shuffled, verbose = 0)
+    
+    #Define input tensor
+    
+    #Prepare train data in the format torch accepts
+    x_train = x_shuffled[0:218]
+    y_train = y_shuffled[0:218]
+    
 
+    #Define train Dataset
+    training_data = (x_train, y_train)
+    train_dataset = TrainDataset(training_data = training_data)
+    train_dataloader = DataLoader(dataset = train_dataset, batch_size = 2, shuffle = True, num_workers=0)
+    
+    
+    #Prepare test data in the format torch accepts'
+    x_test = x_shuffled[218:]
+    y_test = y_shuffled[218:]
+    
+    #Define test Dataset
+    testing_data = (x_test, y_test)
+    test_dataset = TrainDataset(training_data = testing_data)
+    test_dataloader = DataLoader(dataset = test_dataset, batch_size = 2, shuffle = True, num_workers=0)
+    
+    return test_dataloader, train_dataloader
 
 def test_score_model(model: nn.Module, test_dataloader: DataLoader, use_zero=False):
 
