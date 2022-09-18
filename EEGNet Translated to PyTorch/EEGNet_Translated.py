@@ -42,6 +42,7 @@ verbose = 1
 DEVICE = torch.device("mps")
 file = '/Users/vlourenco/Documents/GitHub/EEG_MIB/EEGNet Translated to PyTorch/P1_a1.mat'
 
+#### Data Engineering Functions ####
 def loadeeg(file, verbose = 0):
     #Load EEG Data
     mat = scipy.io.loadmat(file)
@@ -212,6 +213,8 @@ def prepareForCrossEntropy(y_shuffled, verbose = 0):
     
     return y_nn
 
+
+#### EEGNet in Tensorflow ####
 def EEGNet(nb_classes, Chans = 64, Samples = 128, 
              dropoutRate = 0.5, kernLength = 64, F1 = 8, 
              D = 2, F2 = 16, norm_rate = 0.25, dropoutType = 'Dropout'):
@@ -331,7 +334,7 @@ def main_tensorflow():
     model.evaluate(x_shuffled[218:],y_nn[218:])
 
 
-############################### Tensorflow to Pytorch ###############################
+############################### Pytorch coding ###############################
 
 
 class TrainDataset(Dataset):
