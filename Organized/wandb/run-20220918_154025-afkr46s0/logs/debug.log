@@ -143,3 +143,5 @@ local_info {
 2022-09-18 15:40:36,508 INFO    MainThread:93966 [wandb_run.py:_redirect():1885] Wrapping output streams.
 2022-09-18 15:40:36,508 INFO    MainThread:93966 [wandb_run.py:_redirect():1907] Redirects installed.
 2022-09-18 15:40:36,508 INFO    MainThread:93966 [wandb_init.py:init():732] run started, returning control to user process
+2022-09-18 15:44:54,313 INFO    MainThread:93966 [wandb_init.py:_pause_backend():374] pausing backend
+2022-09-18 15:44:54,314 INFO    MainThread:93966 [jupyter.py:save_ipynb():377] not saving jupyter notebook

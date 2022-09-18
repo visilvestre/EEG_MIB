@@ -14,8 +14,7 @@ from tools import use_wandb
 
 def main():
     """
-    main method is responsible for running the process logic flow 
-    to 
+    main method is responsible for running the logic
     1- Prepare the data
     2- Test EEGNet
     ...
