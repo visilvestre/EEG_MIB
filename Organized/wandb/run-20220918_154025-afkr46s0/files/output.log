@@ -133,3 +133,365 @@ Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
 
 Iteration:  99%|█████████▉| 108/109 [00:48<00:00,  2.21it/s]
 
+Iteration: 100%|██████████| 109/109 [00:48<00:00,  2.25it/s]
+[4mReloaded modules[24m: EEGNet, tools, operations
+<class 'EEGNet.EEGNet_torch'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration:  99%|█████████▉| 108/109 [00:49<00:00,  2.16it/s]
+
+Iteration: 100%|██████████| 109/109 [00:49<00:00,  2.20it/s]
+<class 'EEGNet.EEGNet_torch'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration: 100%|██████████| 109/109 [00:49<00:00,  2.18it/s]
+<class 'EEGNet.EEGNet_torch'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration:  97%|█████████▋| 106/109 [00:48<00:01,  2.06it/s]
+
+Iteration: 100%|██████████| 109/109 [00:50<00:00,  2.16it/s]
+[4mReloaded modules[24m: EEGNet, tools, operations
+<class 'EEGNet.EEGNet_torch'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration:  98%|█████████▊| 107/109 [00:49<00:00,  2.20it/s]
+
+Iteration: 100%|██████████| 109/109 [00:50<00:00,  2.17it/s]
+[4mReloaded modules[24m: EEGNet, tools, operations
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration: 100%|██████████| 109/109 [00:49<00:00,  2.19it/s]
+train_loss: 0.943993077639046
+<class 'EEGNet.EEGNet_torch'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration:  97%|█████████▋| 106/109 [00:49<00:01,  2.12it/s]
+
+Iteration: 100%|██████████| 109/109 [00:51<00:00,  2.13it/s]
+<class 'EEGNet.EEGNet_torch'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration: 100%|██████████| 109/109 [00:50<00:00,  2.16it/s]
+train_loss: 0.9710849209116139
+output_dtype:torch.float32
+[4mReloaded modules[24m: EEGNet, tools, operations
+<class 'EEGNet.EEGNet_torch'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration: 100%|██████████| 109/109 [00:49<00:00,  2.19it/s]
+[4mReloaded modules[24m: EEGNet, tools, operations
+<class 'EEGNet.EEGNet_torch'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration:  98%|█████████▊| 107/109 [00:49<00:00,  2.18it/s]
+train_loss: 0.9530412855498288
+
+Iteration: 100%|██████████| 109/109 [00:50<00:00,  2.15it/s]
+[4mReloaded modules[24m: EEGNet, tools, operations
+<class 'EEGNet.EEGNet_torch'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration: 100%|██████████| 109/109 [00:50<00:00,  2.17it/s]
+train_loss: 0.9269863859229132
+output_dtype:torch.float32, size:torch.Size([])
+backward:{loss.sum().backward()}
+[4mReloaded modules[24m: EEGNet, tools, operations
+<class 'EEGNet.EEGNet_torch'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration:  96%|█████████▋| 105/109 [00:48<00:01,  2.20it/s]
+
+Iteration: 100%|██████████| 109/109 [00:50<00:00,  2.14it/s]
+output_dtype:torch.float32, size:torch.Size([])
+backward:None
+[4mReloaded modules[24m: EEGNet, tools, operations
+<class 'EEGNet.EEGNet_torch'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration:  99%|█████████▉| 108/109 [00:49<00:00,  2.21it/s]
+
+Iteration: 100%|██████████| 109/109 [00:49<00:00,  2.19it/s]
+output_dtype:torch.float32, size:torch.Size([])
+backward:None
+<class 'EEGNet.EEGNet_torch'>
+<class 'EEGNet.EEGNet_torch'>
+<class 'EEGNet.EEGNet_torch'>
+<class 'EEGNet.EEGNet_torch'>
+<class 'EEGNet.EEGNet_torch'>
+[4mReloaded modules[24m: tools, operations, EEGNet
+<class 'EEGNet.EEGNet_torch_test'>
+<class 'EEGNet.EEGNet_torch_test'>
+[4mReloaded modules[24m: EEGNet, tools, operations
+<class 'EEGNet.EEGNet_torch_test'>
+[4mReloaded modules[24m: tools, operations, EEGNet

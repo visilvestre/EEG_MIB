@@ -179,35 +179,6 @@ def train_epoch(model: nn.Module, train_dataloader: DataLoader):
     #setup model to train
     model().train(mode=True)
     
-    """
-    #Original_model
-    #Variables declaration
-    tr_loss = 0
-    nb_tr_examples = 0
-    nb_tr_steps = 0
-    
-    for step, batch in enumerate(tqdm(train_dataloader, desc="Iteration")):
-        batch = tuple(t.to(DEVICE) for t in batch)
-        
-        input_t, labels_t = batch
-        
-        output_t = model() #### NEED TO UPDATE HERE WITH MODEL STRUCTURE....
-        
-        logits = output_t
-        
-        loss_fct = MSELoss()
-        loss = loss_fct(logits.view(-1), labels_t.view(-1))
-        
-        if args.gradient_accumulation_step > 1:
-            loss = loss / args.gradient_accumulation_step
-       
-        
-        tr_loss += loss.item()
-        nb_tr_steps += 1
-        
-    return tr_loss / nb_tr_steps
-    """
-
     #Variables Declaration
     tr_loss = 0
     nb_tr_examples = 0
@@ -238,8 +209,102 @@ def train_epoch(model: nn.Module, train_dataloader: DataLoader):
         
         tr_loss += loss.item()
         nb_tr_steps += 1
+    
+    """
+    #Original_model
+    #Variables declaration
+    tr_loss = 0
+    nb_tr_examples = 0
+    nb_tr_steps = 0
+    
+    for step, batch in enumerate(tqdm(train_dataloader, desc="Iteration")):
+        batch = tuple(t.to(DEVICE) for t in batch)
+        
+        input_t, labels_t = batch
+        
+        output_t = model() #### NEED TO UPDATE HERE WITH MODEL STRUCTURE....
+        
+        logits = output_t
+        
+        loss_fct = MSELoss()
+        loss = loss_fct(logits.view(-1), labels_t.view(-1))
+        
+        if args.gradient_accumulation_step > 1:
+            loss = loss / args.gradient_accumulation_step
+       
+        
+        tr_loss += loss.item()
+        nb_tr_steps += 1
         
     return tr_loss / nb_tr_steps
+    """
+    return tr_loss / nb_tr_steps
+
+def train_epoch_test(model: nn.Module, train_dataloader: DataLoader):
+    #setup model to train
+    model().train(mode=True)
+    
+    #Variables Declaration
+    tr_loss = 0
+    nb_tr_examples = 0
+    nb_tr_steps = 0
+    
+    DEVICE = torch.device("cpu") #Define "cpu" or "mds" ("mps" if torch.backends.mps.is_available() else "cpu")
+    
+    for step, batch in enumerate(tqdm(train_dataloader, desc="Iteration")):
+        batch = tuple(t.to(DEVICE) for t in batch)
+        
+        input_t, labels_t = batch
+        input_ = torch.zeros([1,2,129,2500])
+        input_[0] = input_t
+        
+        output_t = model().forward(x=input_) #### NEED TO UPDATE HERE WITH MODEL STRUCTURE....
+        
+        logits = output_t
+        
+        loss_fct = nn.CrossEntropyLoss() ##Changed from MSE to CrossEntropy
+        #MSELoss()
+        loss = loss_fct(logits.view(-1), labels_t.view(-1))
+        
+        
+        if args.gradient_accumulation_step > 1:
+            loss = loss / args.gradient_accumulation_step
+            tr_loss += loss.item()
+            nb_tr_steps += 1
+        
+        tr_loss += loss.item()
+        nb_tr_steps += 1
+    
+    """
+    #Original_model
+    #Variables declaration
+    tr_loss = 0
+    nb_tr_examples = 0
+    nb_tr_steps = 0
+    
+    for step, batch in enumerate(tqdm(train_dataloader, desc="Iteration")):
+        batch = tuple(t.to(DEVICE) for t in batch)
+        
+        input_t, labels_t = batch
+        
+        output_t = model() #### NEED TO UPDATE HERE WITH MODEL STRUCTURE....
+        
+        logits = output_t
+        
+        loss_fct = MSELoss()
+        loss = loss_fct(logits.view(-1), labels_t.view(-1))
+        
+        if args.gradient_accumulation_step > 1:
+            loss = loss / args.gradient_accumulation_step
+       
+        
+        tr_loss += loss.item()
+        nb_tr_steps += 1
+        
+    return tr_loss / nb_tr_steps
+    """
+    train_loss = tr_loss / nb_tr_steps
+    return train_loss, loss
 
 
 #Needed for train()

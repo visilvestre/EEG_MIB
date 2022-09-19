@@ -1,0 +1,44 @@
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]/Users/vlourenco/miniforge3/lib/python3.9/site-packages/torch/nn/modules/container.py:139: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration:  38%|███▊      | 41/109 [02:11<03:38,  3.21s/it]
