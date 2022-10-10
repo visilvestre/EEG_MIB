@@ -926,5 +926,5 @@ def main_torch():
     
     
 if __name__ == "__main__":
-    #main_tensorflow()
-    main_torch()
+    main_tensorflow()
+    #main_torch()

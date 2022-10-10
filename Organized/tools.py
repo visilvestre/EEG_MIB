@@ -200,8 +200,8 @@ def use_wandb(projectname):
     wandb.init(project = projectname)
     wandb.config = {
       "learning_rate": 0.001,
-      "epochs": 5,
-      "batch_size": 128
+      "epochs": 20,
+      "batch_size": 2
     }
     
     

@@ -1,0 +1,2851 @@
+
+[4mReloaded modules[24m: tools, operations, eegnet_test
+<class 'EEGNet.EEGNet_torch'>
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]/Users/vlourenco/miniforge3/lib/python3.9/site-packages/torch/nn/modules/conv.py:453: UserWarning: Using padding='same' with even kernel lengths and odd dilation may require a zero-padded copy of the input be created (Triggered internally at  /Users/runner/miniforge3/conda-bld/pytorch-recipe_1660136169395/work/aten/src/ATen/native/Convolution.cpp:883.)
+  return F.conv2d(input, weight, bias, self.stride,
+/Users/vlourenco/miniforge3/lib/python3.9/site-packages/torch/nn/modules/container.py:139: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  input = module(input)
+Iteration:   1%|          | 1/109 [00:00<01:37,  1.10it/s]
+[4mReloaded modules[24m: EEGNet, tools, operations
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+tensor([0.])
+Iteration:  59%|█████▊    | 64/109 [00:00<00:00, 636.63it/s]
+tensor([-46.5191])
+tensor([-46.8913])
+tensor([-34.4163])
+tensor([-70.5591])
+tensor([-52.8425])
+tensor([-59.5418])
+tensor([-39.8465])
+tensor([-50.5760])
+tensor([-40.6161])
+tensor([-48.9609])
+tensor([-54.7719])
+tensor([-48.4801])
+tensor([-39.0920])
+tensor([-42.0330])
+tensor([-58.9810])
+tensor([-42.0001])
+tensor([-49.6676])
+tensor([-49.7920])
+tensor([-43.2277])
+tensor([-55.0815])
+tensor([-39.7757])
+tensor([-49.4362])
+tensor([-53.0949])
+tensor([-83.1963])
+tensor([-30.7099])
+tensor([-54.8274])
+tensor([-59.9554])
+tensor([-48.1356])
+tensor([-55.8102])
+tensor([-36.4891])
+tensor([-43.6683])
+tensor([-52.4012])
+tensor([-61.6087])
+tensor([-60.4980])
+tensor([-43.2721])
+tensor([-55.9557])
+tensor([-55.4076])
+tensor([-56.0964])
+tensor([-48.6913])
+tensor([-25.0470])
+tensor([-30.4709])
+tensor([-38.8433])
+tensor([-44.8808])
+tensor([-49.3063])
+tensor([-44.4010])
+tensor([-56.8299])
+tensor([-46.6145])
+tensor([-46.3412])
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 660.59it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 592.58it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 604.05it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 740.14it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 648.40it/s]
+tensor([-39.0313])
+tensor([-46.3262])
+tensor([-41.5789])
+tensor([-44.1991])
+tensor([-56.1108])
+tensor([-43.5236])
+tensor([-37.2647])
+tensor([-45.2347])
+tensor([-57.9754])
+tensor([-46.9103])
+tensor([-39.8635])
+tensor([-26.2459])
+tensor([-41.0256])
+tensor([-55.2670])
+tensor([-55.2780])
+tensor([-62.4560])
+tensor([-61.2160])
+tensor([-34.1112])
+tensor([-58.8786])
+tensor([-49.0869])
+tensor([-41.5582])
+tensor([-40.7168])
+tensor([-61.1272])
+tensor([-39.6645])
+tensor([-39.1544])
+tensor([-59.3442])
+tensor([-50.0025])
+tensor([-27.9907])
+tensor([-52.6006])
+tensor([-54.3282])
+tensor([-54.5091])
+tensor([-41.3171])
+tensor([-50.7879])
+tensor([-56.5401])
+tensor([-52.8328])
+tensor([-47.2457])
+tensor([-53.1041])
+tensor([-53.9039])
+tensor([-54.1397])
+tensor([-73.6222])
+tensor([-69.1496])
+tensor([-52.6974])
+tensor([-52.6496])
+tensor([-42.2455])
+tensor([-46.2418])
+tensor([-84.5354])
+tensor([-54.8573])
+tensor([-39.0703])
+tensor([-45.7742])
+tensor([-45.2451])
+tensor([-46.4516])
+tensor([-63.9746])
+tensor([-49.4898])
+tensor([-43.7909])
+tensor([-49.3422])
+tensor([-35.8132])
+tensor([-31.9999])
+tensor([-43.1603])
+tensor([-47.4296])
+tensor([-43.1158])
+tensor([-55.7559])
+tensor([-56.5972])
+tensor([-53.7311])
+tensor([-49.4898])
+tensor([-48.9609])
+tensor([-41.5789])
+tensor([-47.4296])
+tensor([-20.8081])
+tensor([-43.5236])
+tensor([-53.7166])
+tensor([-53.7446])
+tensor([-34.4163])
+tensor([-54.6464])
+tensor([-70.5591])
+tensor([-52.8328])
+tensor([-26.6886])
+tensor([-32.5494])
+tensor([-52.6006])
+tensor([-35.1450])
+tensor([-43.2277])
+tensor([-54.0141])
+tensor([-42.0001])
+tensor([-46.5191])
+tensor([-39.8635])
+tensor([-44.1991])
+tensor([-57.9754])
+tensor([-59.4527])
+tensor([-83.1963])
+tensor([-58.8786])
+tensor([-39.7757])
+tensor([-46.4516])
+tensor([-37.3204])
+tensor([-61.6087])
+tensor([-52.8425])
+tensor([-36.4891])
+tensor([-52.0377])
+tensor([-37.2647])
+tensor([-38.8377])
+tensor([-48.9951])
+tensor([-53.9039])
+tensor([-81.4617])
+tensor([-69.1496])
+tensor([-64.6747])
+tensor([-87.6907])
+tensor([-47.2457])
+tensor([-59.2584])
+tensor([-39.8465])
+tensor([-40.7168])
+tensor([-54.3282])
+tensor([-46.3030])
+tensor([-48.6913])
+tensor([-56.0054])
+tensor([-55.9557])
+tensor([-31.4324])
+tensor([-18.4856])
+tensor([-54.7719])
+tensor([-43.6683])
+tensor([-30.7099])
+tensor([-55.5162])
+tensor([-26.2459])
+tensor([-84.5354])
+tensor([-56.0964])
+tensor([-39.6645])
+tensor([-53.1763])
+tensor([-55.8102])
+tensor([-40.7141])
+tensor([-49.3063])
+tensor([-27.9907])
+tensor([-49.7920])
+tensor([-59.5418])
+tensor([-56.1108])
+tensor([-53.9252])
+tensor([-50.5956])
+tensor([-58.9810])
+tensor([-46.7095])
+tensor([-15.3486])
+tensor([-55.1287])
+tensor([-49.8013])
+tensor([-53.8671])
+tensor([-43.7909])
+tensor([-41.3171])
+tensor([-66.9928])
+tensor([-48.1425])
+tensor([-64.0184])
+tensor([-57.3404])
+tensor([-56.1127])
+tensor([-43.1158])
+tensor([-35.8012])
+tensor([-41.9025])
+tensor([-55.1778])
+tensor([-43.1603])
+tensor([-45.7690])
+tensor([-46.9103])
+tensor([-53.1041])
+tensor([-57.8646])
+tensor([-41.0256])
+tensor([-25.4569])
+tensor([-50.2553])
+tensor([-46.3412])
+tensor([-39.1544])
+tensor([-52.7165])
+tensor([-45.0162])
+tensor([-45.7149])
+tensor([-42.2034])
+tensor([-55.2780])
+tensor([-39.0313])
+tensor([-54.5091])
+tensor([-66.1769])
+tensor([-56.5401])
+tensor([-46.7095])
+tensor([-43.1603])
+tensor([-54.1397])
+tensor([-44.8808])
+tensor([-55.5098])
+tensor([-53.7166])
+tensor([-51.5150])
+tensor([-35.2147])
+tensor([-56.8299])
+tensor([-46.4516])
+tensor([-50.8649])
+tensor([-34.1112])
+tensor([-42.2034])
+tensor([-40.7141])
+tensor([-59.4527])
+tensor([-73.6222])
+tensor([-53.0949])
+tensor([-61.4739])
+tensor([-39.0920])
+tensor([-52.8425])
+tensor([-45.8091])
+tensor([-31.7113])
+tensor([-55.1778])
+tensor([-57.8646])
+tensor([-43.1158])
+tensor([-45.7690])
+tensor([-48.1356])
+tensor([-69.1496])
+tensor([-56.5401])
+tensor([-46.3412])
+tensor([-39.7757])
+tensor([46.8553])
+tensor([-41.4458])
+tensor([-59.5418])
+tensor([-50.5956])
+tensor([-49.3422])
+tensor([-63.9746])
+tensor([-61.6087])
+tensor([-45.0162])
+tensor([-40.6161])
+tensor([-31.9999])
+tensor([-84.5354])
+tensor([-46.9103])
+tensor([-55.0815])
+tensor([-61.9133])
+tensor([-55.9557])
+tensor([176.7728])
+tensor([-55.1287])
+tensor([-25.0470])
+tensor([-25.4569])
+tensor([-36.0810])
+tensor([-42.4140])
+tensor([-27.9907])
+tensor([-45.7742])
+tensor([-55.8102])
+tensor([-45.2347])
+tensor([-59.2584])
+tensor([-54.4522])
+tensor([-52.5366])
+tensor([-53.1041])
+tensor([-59.2156])
+tensor([-51.6573])
+tensor([-13.0471])
+tensor([-25.7257])
+tensor([-59.3442])
+tensor([-39.1544])
+tensor([-57.9754])
+tensor([-60.8176])
+tensor([-38.8377])
+tensor([-51.7715])
+tensor([-54.7719])
+tensor([-42.0330])
+tensor([-83.1963])
+tensor([-46.6145])
+tensor([-51.9519])
+tensor([-52.4012])
+tensor([-52.0377])
+tensor([-40.7168])
+tensor([-56.1108])
+tensor([-44.3570])
+tensor([-46.2418])
+tensor([-39.0703])
+tensor([-52.6496])
+tensor([-34.4163])
+tensor([-47.2389])
+tensor([-49.4362])
+tensor([-34.2483])
+tensor([-44.4325])
+tensor([-63.5606])
+tensor([-53.9039])
+tensor([-70.5848])
+tensor([-66.1769])
+tensor([-87.6907])
+tensor([-54.1630])
+tensor([-55.7559])
+tensor([-31.4324])
+tensor([-46.6454])
+tensor([-43.2277])
+tensor([-39.6645])
+tensor([-26.6886])
+tensor([-49.0869])
+tensor([-46.8913])
+tensor([-44.9043])
+tensor([-52.3432])
+tensor([-39.8635])
+tensor([-32.5494])
+tensor([-48.6913])
+tensor([-30.4709])
+tensor([-50.7879])
+tensor([-50.5956])
+tensor([-87.6907])
+tensor([-31.4324])
+tensor([-41.3171])
+tensor([-57.8646])
+tensor([-40.7168])
+tensor([-47.2457])
+tensor([-45.7742])
+tensor([-64.0184])
+tensor([-51.9519])
+tensor([-31.9999])
+tensor([-43.7326])
+tensor([-73.6222])
+tensor([-43.1603])
+tensor([-48.7558])
+tensor([-43.2721])
+tensor([-84.5354])
+tensor([-45.1519])
+tensor([-40.7141])
+tensor([176.7728])
+tensor([-51.7715])
+tensor([-52.4012])
+tensor([-52.3432])
+tensor([-35.1450])
+tensor([-49.3063])
+tensor([-40.9387])
+tensor([-37.3204])
+tensor([-44.3570])
+tensor([-49.7920])
+tensor([-56.5972])
+tensor([-46.3262])
+tensor([-50.2553])
+tensor([-53.1763])
+tensor([-43.1158])
+tensor([-49.8013])
+tensor([-42.0330])
+tensor([-39.1544])
+tensor([-62.4560])
+tensor([-31.7113])
+tensor([-26.2459])
+tensor([-45.7149])
+tensor([-46.3030])
+tensor([-43.2277])
+tensor([-25.0470])
+tensor([-36.0810])
+tensor([-39.0313])
+tensor([-44.9043])
+tensor([-56.9420])
+tensor([-46.3412])
+tensor([-53.9252])
+tensor([-50.2765])
+tensor([-63.5606])
+tensor([-39.0703])
+tensor([-56.0964])
+tensor([-39.6645])
+tensor([-51.5150])
+tensor([-48.9609])
+tensor([-49.6676])
+tensor([-52.8328])
+tensor([-52.0377])
+tensor([-41.5582])
+tensor([-45.2451])
+tensor([-18.4856])
+tensor([-70.5848])
+tensor([-54.1630])
+tensor([-66.9928])
+tensor([-59.3442])
+tensor([-83.1963])
+tensor([-36.4891])
+tensor([-88.8221])
+tensor([-61.9133])
+tensor([-61.1272])
+tensor([-60.8176])
+tensor([-54.1397])
+tensor([-13.0471])
+tensor([-49.4898])
+tensor([-46.8913])
+tensor([-59.9554])
+tensor([-53.8671])
+tensor([-53.7446])
+tensor([-40.6161])
+tensor([-49.7602])
+tensor([-44.8808])
+tensor([-55.4076])
+tensor([-59.4527])
+tensor([-45.2347])
+tensor([-49.0869])
+tensor([-15.3486])
+tensor([-50.5760])
+tensor([-52.7165])
+tensor([-44.1991])
+tensor([-34.1112])
+tensor([-46.5191])
+tensor([-46.4516])
+tensor([-39.7757])
+tensor([-34.2483])
+tensor([-55.2780])
+tensor([-43.5236])
+tensor([-42.0001])
+tensor([-54.4522])
+tensor([-37.4998])
+tensor([-54.6464])
+tensor([-55.9557])
+tensor([-46.9103])
+tensor([-59.2156])
+tensor([-59.5418])
+tensor([-45.7690])
+tensor([-53.7311])
+tensor([-56.8299])
+tensor([-49.7920])
+tensor([-45.7878])
+tensor([-25.0470])
+tensor([-58.7132])
+tensor([-45.2347])
+tensor([-61.6480])
+tensor([-70.5591])
+tensor([-45.2451])
+tensor([-55.1287])
+tensor([-54.5091])
+tensor([-40.7168])
+tensor([-37.4998])
+tensor([-52.7165])
+tensor([-40.7141])
+tensor([-47.2457])
+tensor([-54.1397])
+tensor([-50.2553])
+tensor([-45.8091])
+tensor([-48.4801])
+tensor([-43.2277])
+tensor([-60.4980])
+tensor([-47.4296])
+tensor([-41.3171])
+tensor([-52.6006])
+tensor([-44.9043])
+tensor([-26.6886])
+tensor([-59.9554])
+tensor([-55.9557])
+tensor([-56.9420])
+tensor([-41.0256])
+tensor([-42.0001])
+tensor([-53.8671])
+tensor([-49.6676])
+tensor([-34.2483])
+tensor([-61.2160])
+tensor([-41.9025])
+tensor([-38.2354])
+tensor([-66.9928])
+tensor([-84.5354])
+tensor([-55.1778])
+tensor([-50.5760])
+tensor([-59.5418])
+tensor([-53.7311])
+tensor([-40.9387])
+tensor([-44.4010])
+tensor([-39.7757])
+tensor([-46.4516])
+tensor([-13.0471])
+tensor([-44.3570])
+tensor([-46.6454])
+tensor([-42.2455])
+tensor([-60.8176])
+tensor([-52.6974])
+tensor([-38.0433])
+tensor([-52.8328])
+tensor([-25.4569])
+tensor([-54.8274])
+tensor([-59.3442])
+tensor([-30.4709])
+tensor([-81.4617])
+tensor([-39.0703])
+tensor([-18.4856])
+tensor([-45.7149])
+tensor([-51.5150])
+tensor([-49.3422])
+tensor([-70.4015])
+tensor([-39.1544])
+tensor([-45.0162])
+tensor([-47.2389])
+tensor([-63.9746])
+tensor([-38.8433])
+tensor([-54.1630])
+tensor([-57.3404])
+tensor([-70.5848])
+tensor([-61.1272])
+tensor([-41.5582])
+tensor([-35.1450])
+tensor([-43.7326])
+tensor([-42.4140])
+tensor([-49.4362])
+tensor([-36.0810])
+tensor([-42.0330])
+tensor([-38.8377])
+tensor([-49.4898])
+tensor([-48.1425])
+tensor([-83.1963])
+tensor([-55.5162])
+tensor([-41.5789])
+tensor([-43.5236])
+tensor([-15.6517])
+tensor([-44.1991])
+tensor([-50.7879])
+tensor([-56.8299])
+tensor([-59.2156])
+tensor([-55.7559])
+tensor([-56.0964])
+tensor([-46.8913])
+tensor([-57.8646])
+tensor([-46.9103])
+tensor([-44.4325])
+tensor([-66.1769])
+tensor([-45.1519])
+tensor([-51.6573])
+tensor([-43.1603])
+tensor([-62.4560])
+tensor([-56.1108])
+tensor([-52.8425])
+tensor([-55.5098])
+tensor([-39.8635])
+Finished Training
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 804.57it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 598.21it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 716.54it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 624.14it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 748.49it/s]
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d630>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733d040>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d180>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733df90>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d8b0>
+<built-in method size of Tensor object at 0x17733d130>
+<built-in method size of Tensor object at 0x17733d130>
+<built-in method size of Tensor object at 0x17733d130>
+<built-in method size of Tensor object at 0x17733d130>
+<built-in method size of Tensor object at 0x17733d130>
+<built-in method size of Tensor object at 0x17733d130>
+<built-in method size of Tensor object at 0x17733d130>
+<built-in method size of Tensor object at 0x17733d130>
+<built-in method size of Tensor object at 0x17733d130>
+<built-in method size of Tensor object at 0x17733d130>
+<built-in method size of Tensor object at 0x17733d130>
+<built-in method size of Tensor object at 0x17733d130>
+<built-in method size of Tensor object at 0x17733d130>
+<built-in method size of Tensor object at 0x17733d130>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x17733d860>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x1767c1130>
+<built-in method size of Tensor object at 0x1767c1130>
+<built-in method size of Tensor object at 0x1767c1130>
+<built-in method size of Tensor object at 0x1767c1130>
+<built-in method size of Tensor object at 0x1767c1130>
+<built-in method size of Tensor object at 0x1767c1130>
+<built-in method size of Tensor object at 0x1767c1130>
+<built-in method size of Tensor object at 0x1767c1130>
+<built-in method size of Tensor object at 0x1767c1130>
+<built-in method size of Tensor object at 0x1767c1130>
+<built-in method size of Tensor object at 0x1767c1130>
+<built-in method size of Tensor object at 0x1767c1130>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c19a0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x176741bd0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+<built-in method size of Tensor object at 0x1767c1cc0>
+Finished Training
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 761.51it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 775.40it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 784.00it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 827.78it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 768.40it/s]
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+Finished Training
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 766.75it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 861.28it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 807.50it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 854.57it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 799.53it/s]
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+torch.Size([2500, 1])
+Finished Training
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 728.71it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 788.30it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 775.07it/s]
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 781.73it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+
+Iteration: 100%|██████████| 109/109 [00:00<00:00, 782.79it/s]
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+torch.Size([1])
+Finished Training
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: eegnet_test, tools, operations
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, eegnet_test
+
+
+
+
+
+
+Iteration:   5%|▍         | 5/109 [00:10<03:43,  2.15s/it]
+[4mReloaded modules[24m: eegnet_test, tools, operations

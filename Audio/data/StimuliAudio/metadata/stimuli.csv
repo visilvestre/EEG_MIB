@@ -1,0 +1,13 @@
+slice_file_name,start,end,classID,class
+21-25-C-tonic.wav,0,,0,tonic
+26-30-C-dominant.wav,0,,1,dominant
+31-35-C-flatII.wav,0,,2,flat
+36-40-C-silence.wav,0,,3,silence
+41-45-F-tonic.wav,0,,0,tonic
+46-50-F-dominant.wav,0,,1,dominant
+51-55-F-flatII.wav,0,,2,flat
+56-60-F-silence.wav,0,,3,silence
+61-65-B-tonic.wav,0,,0,tonic
+66-70-B-dominant.wav,0,,1,dominant
+71-75-B-flatII.wav,0,,2,flat
+76-80-B-silence.wav,0,,3,silence
