@@ -105,6 +105,6 @@ if __name__ == "__main__":
     optimizer = optim.Adam(model.parameters(), lr=0.001)
     
     model, optimizer = train(model, NUM_EPOCHS, USE_WB, trainloader, criterion, optimizer)
-    save_model_all(model,"/Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/", "eegnet", NUM_EPOCHS)
+    save_model_all(model,"/Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/Saved_models", "eegnet", NUM_EPOCHS)
             
 print('Finished Training')
