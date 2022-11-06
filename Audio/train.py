@@ -22,14 +22,26 @@ AUDIO_DIR = "data/StimuliAudio/audio/"
 SAMPLE_RATE = 48000
 NUM_SAMPLES = 180000
 USE_GPU = 0    #Several issues when using M1 processor.. 
+PROJECTNAME = "AudioTraining"
+USE_WANDB = 1
+SHUFFLE_DATALOADER = False
 
 
-def create_data_loader(train_data, batch_size):
-    train_dataloader = DataLoader(train_data, batch_size=batch_size)
+def use_wandb(projectname, learning_rate, epochs, batch_size):
+    ###Configure Wandb to send data and create result graphs
+    wandb.init(project = projectname)
+    wandb.config = {
+      "learning_rate": learning_rate,
+      "epochs": epochs,
+      "batch_size": batch_size
+    }
+
+def create_data_loader(train_data, batch_size, shuff=False):
+    train_dataloader = DataLoader(train_data, batch_size=batch_size,shuffle=shuff)
     return train_dataloader
 
 
-def train_single_epoch(model, data_loader, loss_fn, optimiser, device):
+def train_single_epoch(model, data_loader, loss_fn, optimiser, device, wdb):
     for input, target in data_loader:
         input, target = input.to(device), target.to(device)
 
@@ -41,14 +53,17 @@ def train_single_epoch(model, data_loader, loss_fn, optimiser, device):
         optimiser.zero_grad()
         loss.backward()
         optimiser.step()
-
+    
+    if wdb == 1:
+        ls = loss.item()
+        wandb.log({"Loss": ls})
     print(f"loss: {loss.item()}")
 
 
-def train(model, data_loader, loss_fn, optimiser, device, epochs):
+def train(model, data_loader, loss_fn, optimiser, device, epochs, wdb):
     for i in range(epochs):
         print(f"Epoch {i+1}")
-        train_single_epoch(model, data_loader, loss_fn, optimiser, device)
+        train_single_epoch(model, data_loader, loss_fn, optimiser, device, wdb)
         print("---------------------------")
     print("Finished training")
 
@@ -66,7 +81,13 @@ if __name__ == "__main__":
     else:
         device = "cpu"
         print(f"Using {device}")
-        
+    
+    #Use wandb to log data
+    if USE_WANDB == 1:
+        use_wandb(projectname=PROJECTNAME, 
+                  learning_rate=LEARNING_RATE,
+                  epochs=EPOCHS, 
+                  batch_size=BATCH_SIZE)
 
 
     #Instatiating our dataset object and create data loader
@@ -74,7 +95,7 @@ if __name__ == "__main__":
         sample_rate=SAMPLE_RATE,
         n_fft=1024,
         hop_length=512,
-        n_mels=64
+        n_mels=128
     )
 
     usd = StimuliAudioDataset(ANNOTATIONS_FILE,
@@ -84,7 +105,7 @@ if __name__ == "__main__":
                             NUM_SAMPLES,
                             device = device)
     
-    train_dataloader = create_data_loader(usd, BATCH_SIZE)
+    train_dataloader = create_data_loader(usd, BATCH_SIZE,SHUFFLE_DATALOADER)
     
     #construct model and assign to a device
     cnn = CNNNetwork().to(device)
@@ -96,7 +117,7 @@ if __name__ == "__main__":
                                  lr=LEARNING_RATE)
 
     # train model
-    train(cnn, train_dataloader, loss_fn, optimiser, device, EPOCHS)
+    train(cnn, train_dataloader, loss_fn, optimiser, device, EPOCHS, USE_WANDB)
 
     # save model
     torch.save(cnn.state_dict(), "cnn_stimuliaudio.pth")

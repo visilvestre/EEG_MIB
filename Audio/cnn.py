@@ -64,7 +64,7 @@ class CNNNetwork(nn.Module):
             )
         
         self.flatten = nn.Flatten()
-        self.linear = nn.Linear(14720, 4) #Shape of the data output from the last layer
+        self.linear = nn.Linear(26496, 4) #Shape of the data output from the last layer
         self.softmax = nn.Softmax(dim=1)
     
     def forward(self, input_data):
@@ -72,6 +72,7 @@ class CNNNetwork(nn.Module):
         x = self.conv2(x)
         x = self.conv3(x)
         x = self.conv4(x)
+        self.mid = x                     #Mark the point to extract into the fusion model
         x = self.flatten(x)
         logits = self.linear(x)
         predictions = self.softmax(logits)

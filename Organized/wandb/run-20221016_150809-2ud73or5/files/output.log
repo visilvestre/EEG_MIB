@@ -1,0 +1,168 @@
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]/Users/vlourenco/miniforge3/lib/python3.9/site-packages/torch/nn/modules/conv.py:459: UserWarning: Using padding='same' with even kernel lengths and odd dilation may require a zero-padded copy of the input be created (Triggered internally at /Users/runner/work/_temp/anaconda/conda-bld/pytorch_1665386055645/work/aten/src/ATen/native/Convolution.cpp:896.)
+  return F.conv2d(input, weight, bias, self.stride,
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 16, 120, 1]           1,040
+       BatchNorm2d-2           [-1, 16, 120, 1]              32
+         ZeroPad2d-3           [-1, 1, 17, 153]               0
+            Conv2d-4           [-1, 4, 16, 122]             260
+       BatchNorm2d-5           [-1, 4, 16, 122]               8
+         MaxPool2d-6             [-1, 4, 4, 31]               0
+         ZeroPad2d-7            [-1, 4, 11, 34]               0
+            Conv2d-8             [-1, 4, 4, 31]             516
+       BatchNorm2d-9             [-1, 4, 4, 31]               8
+        MaxPool2d-10              [-1, 4, 2, 7]               0
+           Linear-11                    [-1, 1]              57
+================================================================
+Total params: 1,921
+Trainable params: 1,921
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.03
+Forward/backward pass size (MB): 0.19
+Params size (MB): 0.01
+Estimated Total Size (MB): 0.23
+----------------------------------------------------------------
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+[4mReloaded modules[24m: tools, operations, EEGNet
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+
+Iteration:   0%|          | 0/109 [00:01<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+[4mReloaded modules[24m: tools, operations, EEGNet
+[4mReloaded modules[24m: tools, operations, EEGNet
+Iteration:   0%|          | 0/109 [00:01<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+
+Iteration:   0%|          | 0/109 [00:01<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]
+
+Iteration:   0%|          | 0/109 [00:01<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+
+Iteration:   0%|          | 0/109 [00:01<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+
+Iteration:   0%|          | 0/109 [00:01<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+
+Iteration:   0%|          | 0/109 [00:01<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+
+Iteration:   0%|          | 0/109 [00:01<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+
+Iteration:   0%|          | 0/109 [00:01<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+
+Iteration:   0%|          | 0/109 [00:01<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+
+Iteration:   0%|          | 0/109 [00:01<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 16, 120, 1]           1,040
+       BatchNorm2d-2           [-1, 16, 120, 1]              32
+         ZeroPad2d-3           [-1, 1, 17, 153]               0
+            Conv2d-4           [-1, 4, 16, 122]             260
+       BatchNorm2d-5           [-1, 4, 16, 122]               8
+         MaxPool2d-6             [-1, 4, 4, 31]               0
+         ZeroPad2d-7            [-1, 4, 11, 34]               0
+            Conv2d-8             [-1, 4, 4, 31]             516
+       BatchNorm2d-9             [-1, 4, 4, 31]               8
+        MaxPool2d-10              [-1, 4, 2, 7]               0
+           Linear-11                    [-1, 1]              57
+================================================================
+Total params: 1,921
+Trainable params: 1,921
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.03
+Forward/backward pass size (MB): 0.19
+Params size (MB): 0.01
+Estimated Total Size (MB): 0.23
+----------------------------------------------------------------
+
+Iteration:   0%|          | 0/109 [00:01<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+
+Iteration:   0%|          | 0/109 [00:01<?, ?it/s]
+[4mReloaded modules[24m: tools, operations, EEGNet
+Iteration:   0%|          | 0/109 [00:00<?, ?it/s]/Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/EEGNet.py:166: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  x = self.softmax(x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration:  57%|█████▋    | 62/109 [03:52<02:56,  3.75s/it]
+[4mReloaded modules[24m: EEGNet, tools, operations
