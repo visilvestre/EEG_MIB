@@ -3,3 +3,4 @@
 /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/EEGNet.py:166: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
   x = self.softmax(x)
 Accuracy:12.5
+Finished Testing

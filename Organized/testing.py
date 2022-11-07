@@ -24,7 +24,7 @@ MODEL_NAME = "eegnet_epoch_10"
 DEVICE_NAME = 'cpu'
 DEVICE = torch.device(DEVICE_NAME)
 
-def eval_eegnet(test_loader, model, device):
+def eval_eegnet(test_dataloader, model, device):
 
     model.eval()
     num_correct = 0
@@ -49,7 +49,7 @@ def eval_eegnet(test_loader, model, device):
         
     return testing_acc
 
-if __name__ == "__main__":
+def main():
     device = "cpu"
     if USE_WB == 1:
         use_wandb(projectname="test")
@@ -66,3 +66,7 @@ if __name__ == "__main__":
     accuracy = eval_eegnet(test_dataloader, model, device=DEVICE)
     print(f'Accuracy:{accuracy}')
     print('Finished Testing')
+
+if __name__ == "__main__":
+    main()
+    
