@@ -18,9 +18,9 @@ import os
 
 
 ### PARAMETERS ###
-USE_WB = 0
+USE_WB = 1
 DEVICE = torch.device('cpu')
-NUM_EPOCHS = 1
+NUM_EPOCHS = 10
 
 #### METHODS ###
 def save_model_all(model, save_dir, model_name, epoch):
@@ -108,3 +108,31 @@ if __name__ == "__main__":
     save_model_all(model,"/Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/Saved_models", "eegnet", NUM_EPOCHS)
             
 print('Finished Training')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

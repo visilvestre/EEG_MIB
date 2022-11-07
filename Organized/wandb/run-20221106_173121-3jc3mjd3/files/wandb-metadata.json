@@ -1,0 +1,22 @@
+{
+    "os": "macOS-12.6-arm64-arm-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-11-07T01:31:22.666432",
+    "startedAt": "2022-11-07T01:31:21.332911",
+    "docker": null,
+    "cpu_count": 10,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "/Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/train.py",
+    "codePath": "Organized/train.py",
+    "git": {
+        "remote": "https://github.com/visilvestre/EEG_MIB.git",
+        "commit": "34e7a858d4d980c10884336f033907bf081a3afb"
+    },
+    "email": "vi.slourenco@hotmail.com",
+    "root": "/Users/vlourenco/Documents/GitHub/EEG_MIB",
+    "host": "Viniciuss-MBP",
+    "username": "vlourenco",
+    "executable": "/Users/vlourenco/miniforge3/bin/python"
+}

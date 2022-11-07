@@ -41,9 +41,9 @@ class TrainDataset(Dataset):
     def __len__(self):
         return self.len
 
-def prepare_data():
+def prepare_data(file = '/Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/P1_a1.mat'):
+    
     #1- Prepare Data
-    file = '/Users/vlourenco/Documents/GitHub/EEG_MIB/EEGNet Translated to PyTorch/P1_a1.mat'
     mat                     = loadeeg(file, verbose = 0)
     x, mat_framed           = framedata(mat, verbose = 0)
     d, j                    = findindexes(mat, verbose = 0)
