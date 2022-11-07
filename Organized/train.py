@@ -19,7 +19,8 @@ import os
 
 ### PARAMETERS ###
 USE_WB = 1
-DEVICE = torch.device('cpu')
+DEVICE_NAME = 'cpu'
+DEVICE = torch.device(DEVICE_NAME)
 NUM_EPOCHS = 10
 
 #### METHODS ###
@@ -89,6 +90,11 @@ def train(model, NUM_EPOCHS, USE_WB, trainloader, criterion, optimizer):
 
 ### MAIN ###
 if __name__ == "__main__":
+    
+    #Print Parameters
+    print(f'USE_WB: {USE_WB},')
+    print(f'DEVICE_NAME: {DEVICE_NAME},')
+    print(f'NUM_EPOCHS: {NUM_EPOCHS},')
     
     if USE_WB == 1:
         use_wandb(projectname="EEGNet_Adjusted")
