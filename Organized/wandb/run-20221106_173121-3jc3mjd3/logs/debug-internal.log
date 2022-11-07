@@ -7112,3 +7112,201 @@
 2022-11-06 18:56:30,172 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
 2022-11-06 18:56:30,173 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
 2022-11-06 18:56:30,430 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:56:32,441 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:56:33,912 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:56:33,913 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:56:33,913 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:56:33,914 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:56:34,451 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:56:36,462 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:56:37,655 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:56:37,656 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:56:37,656 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:56:37,656 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:56:38,120 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 18:56:38,120 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 18:56:38,471 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:56:38,471 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:56:41,334 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:56:41,335 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:56:41,335 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:56:41,336 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:56:41,487 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:56:42,492 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:56:45,014 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:56:45,015 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:56:45,015 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:56:45,016 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:56:45,507 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:56:46,513 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:56:48,725 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:56:48,726 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:56:48,726 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:56:48,726 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:56:49,529 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:56:50,540 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:56:52,402 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:56:52,403 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:56:52,403 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:56:52,403 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:56:52,549 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:56:53,239 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 18:56:53,240 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 18:56:54,560 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:56:56,097 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:56:56,098 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:56:56,098 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:56:56,099 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:56:56,570 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:56:58,581 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:56:59,775 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:56:59,776 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:56:59,776 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:56:59,776 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:57:00,591 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:57:00,591 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:57:03,487 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:57:03,488 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:57:03,488 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:57:03,488 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:57:03,601 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:57:04,607 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:57:07,173 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:57:07,174 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:57:07,174 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:57:07,176 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:57:07,621 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:57:08,530 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 18:57:08,530 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 18:57:08,626 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:57:10,864 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:57:10,864 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:57:10,865 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:57:10,865 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:57:11,217 DEBUG   SenderThread:3996 [sender.py:send():302] send: stats
+2022-11-06 18:57:11,643 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:57:12,647 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:57:14,558 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:57:14,558 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:57:14,559 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:57:14,559 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:57:14,656 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:57:16,667 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:57:18,277 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:57:18,277 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:57:18,277 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:57:18,278 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:57:18,677 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:57:20,688 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:57:21,972 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:57:21,972 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:57:21,973 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:57:21,973 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:57:22,698 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:57:23,648 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 18:57:23,648 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 18:57:24,708 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:57:25,715 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:57:25,715 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:57:25,715 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:57:25,716 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:57:26,714 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:57:26,714 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:57:29,372 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:57:29,372 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:57:29,372 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:57:29,373 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:57:29,730 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:57:30,736 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:57:33,054 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:57:33,055 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:57:33,055 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:57:33,055 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:57:33,751 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:57:34,756 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:57:36,799 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:57:36,800 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:57:36,800 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:57:36,801 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:57:37,775 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:57:38,780 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:57:38,941 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 18:57:38,941 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 18:57:40,450 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:57:40,450 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:57:40,451 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:57:40,451 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:57:40,452 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-06 18:57:40,452 DEBUG   SenderThread:3996 [sender.py:send():302] send: history
+2022-11-06 18:57:40,452 DEBUG   SenderThread:3996 [sender.py:send():302] send: summary
+2022-11-06 18:57:40,452 INFO    SenderThread:3996 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2022-11-06 18:57:40,459 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: pause
+2022-11-06 18:57:40,459 INFO    HandlerThread:3996 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-11-06 18:57:40,787 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/wandb-summary.json
+2022-11-06 18:57:41,261 DEBUG   SenderThread:3996 [sender.py:send():302] send: stats
+2022-11-06 18:57:42,787 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 18:57:54,062 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 18:57:54,062 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 18:58:09,206 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 18:58:09,206 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 18:58:24,321 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 18:58:24,322 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 18:58:39,481 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 18:58:39,482 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 18:58:54,636 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 18:58:54,637 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 18:59:09,750 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 18:59:09,758 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 18:59:24,283 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: resume
+2022-11-06 18:59:24,283 INFO    HandlerThread:3996 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-11-06 18:59:24,312 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: pause
+2022-11-06 18:59:24,312 INFO    HandlerThread:3996 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-11-06 18:59:25,741 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 18:59:25,741 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 18:59:26,020 DEBUG   SenderThread:3996 [sender.py:send():302] send: stats
+2022-11-06 18:59:38,815 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: resume
+2022-11-06 18:59:38,815 INFO    HandlerThread:3996 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-11-06 18:59:41,027 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 18:59:41,027 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 18:59:56,184 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 18:59:56,184 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 19:00:06,353 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: pause
+2022-11-06 19:00:06,353 INFO    HandlerThread:3996 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-11-06 19:00:07,107 DEBUG   SenderThread:3996 [sender.py:send():302] send: stats
+2022-11-06 19:00:07,449 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 19:00:11,368 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 19:00:11,368 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 19:00:26,522 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 19:00:26,522 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 19:00:41,670 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 19:00:41,671 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 19:00:56,849 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 19:00:56,849 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 19:01:12,088 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 19:01:12,089 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 19:01:14,518 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: resume
+2022-11-06 19:01:14,518 INFO    HandlerThread:3996 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-11-06 19:01:27,242 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 19:01:27,243 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 19:01:41,999 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: pause
+2022-11-06 19:01:41,999 INFO    HandlerThread:3996 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-11-06 19:01:42,788 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 19:01:42,788 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 19:01:43,073 DEBUG   SenderThread:3996 [sender.py:send():302] send: stats
+2022-11-06 19:01:43,914 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 19:01:50,156 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: resume
+2022-11-06 19:01:50,156 INFO    HandlerThread:3996 [handler.py:handle_request_resume():690] starting system metrics thread
+2022-11-06 19:01:58,081 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 19:01:58,081 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 19:02:13,276 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 19:02:13,276 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 19:02:17,582 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: pause
+2022-11-06 19:02:17,582 INFO    HandlerThread:3996 [handler.py:handle_request_pause():699] stopping system metrics thread
+2022-11-06 19:02:18,453 DEBUG   SenderThread:3996 [sender.py:send():302] send: stats
+2022-11-06 19:02:19,048 INFO    Thread-12 :3996 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/wandb/run-20221106_173121-3jc3mjd3/files/output.log
+2022-11-06 19:02:28,517 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 19:02:28,518 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 19:02:43,660 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 19:02:43,660 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status
+2022-11-06 19:02:58,864 DEBUG   HandlerThread:3996 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-06 19:02:58,864 DEBUG   SenderThread:3996 [sender.py:send_request():316] send_request: stop_status

@@ -1070,3 +1070,30 @@ Iteration: 100%|██████████| 109/109 [06:45<00:00,  3.72s/it]
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Iteration: 100%|██████████| 109/109 [06:42<00:00,  3.70s/it]
+save all model to /Users/vlourenco/Documents/GitHub/EEG_MIB/Organized/Saved_models/eegnet_epoch_10.pt
+Finished Training
+Finished Testing
+Accuracy:{accuracy}
+Finished Testing
+Accuracy:70.83333333333333

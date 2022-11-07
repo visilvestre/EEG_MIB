@@ -9,7 +9,7 @@ Created on Sun Nov  6 18:15:09 2022
 import EEGNet
 from EEGNet import EEGNet_torch_test
 from operations import prepare_data
-from Organized.tools import use_wandb
+from tools import use_wandb
 import torch
 from torch import nn
 import torch.optim as optim
@@ -20,9 +20,11 @@ import os
 ### PARAMETERS ###
 USE_WB = 0
 NUM_EPOCHS = 1
-MODEL_NAME = "eegnet_epoch_1"
+MODEL_NAME = "eegnet_epoch_10"
+DEVICE_NAME = 'cpu'
+DEVICE = torch.device(DEVICE_NAME)
 
-def eval(test_loader, model, device):
+def eval_eegnet(test_loader, model, device):
 
     model.eval()
     num_correct = 0
@@ -61,6 +63,6 @@ if __name__ == "__main__":
     criterion = nn.BCELoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001)
     
-    
-          
+    accuracy = eval_eegnet(test_dataloader, model, device=DEVICE)
+    print(f'Accuracy:{accuracy}')
     print('Finished Testing')

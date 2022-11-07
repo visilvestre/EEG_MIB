@@ -26,3 +26,17 @@ config: {}
 2022-11-06 17:31:26,603 INFO    MainThread:2404 [wandb_run.py:_redirect():1885] Wrapping output streams.
 2022-11-06 17:31:26,604 INFO    MainThread:2404 [wandb_run.py:_redirect():1907] Redirects installed.
 2022-11-06 17:31:26,604 INFO    MainThread:2404 [wandb_init.py:init():732] run started, returning control to user process
+2022-11-06 18:57:40,459 INFO    MainThread:2404 [wandb_init.py:_pause_backend():374] pausing backend
+2022-11-06 18:57:40,459 INFO    MainThread:2404 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-11-06 18:59:24,282 INFO    MainThread:2404 [wandb_init.py:_resume_backend():383] resuming backend
+2022-11-06 18:59:24,311 INFO    MainThread:2404 [wandb_init.py:_pause_backend():374] pausing backend
+2022-11-06 18:59:24,311 INFO    MainThread:2404 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-11-06 18:59:38,814 INFO    MainThread:2404 [wandb_init.py:_resume_backend():383] resuming backend
+2022-11-06 19:00:06,353 INFO    MainThread:2404 [wandb_init.py:_pause_backend():374] pausing backend
+2022-11-06 19:00:06,353 INFO    MainThread:2404 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-11-06 19:01:14,518 INFO    MainThread:2404 [wandb_init.py:_resume_backend():383] resuming backend
+2022-11-06 19:01:41,998 INFO    MainThread:2404 [wandb_init.py:_pause_backend():374] pausing backend
+2022-11-06 19:01:41,999 INFO    MainThread:2404 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-11-06 19:01:50,155 INFO    MainThread:2404 [wandb_init.py:_resume_backend():383] resuming backend
+2022-11-06 19:02:17,582 INFO    MainThread:2404 [wandb_init.py:_pause_backend():374] pausing backend
+2022-11-06 19:02:17,582 INFO    MainThread:2404 [jupyter.py:save_ipynb():377] not saving jupyter notebook
